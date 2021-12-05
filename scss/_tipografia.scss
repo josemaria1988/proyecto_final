@@ -1,0 +1,19 @@
+/*----------COMIENZA ARCHIVO TIPOGRAFIAS----------*/
+
+$letras:(
+    header: 'Mukta',
+    carousel: arial,
+    h5: 'Mukta',
+    p: 'times new roman',
+);
+
+@each $elemento, $font in $letras{
+    .font--#{$elemento}{
+        font-family: $font;
+    }
+}
+
+.font--h5-bold {
+    @extend .font--h5;
+        font-weight: bold;
+}

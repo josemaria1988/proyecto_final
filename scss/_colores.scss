@@ -1,0 +1,53 @@
+/*----------COMIENZA ARCHIVO DE COLORES----------*/
+
+$colores-bg:(
+    header: brown,
+    submenu: brown,
+    carousel: rgba(0,0,0,0.5),
+    buscar: white,
+);
+
+@each $elemento, $color in $colores-bg {
+    .bg--#{$elemento}{
+        background-color: $color;
+    }
+}
+
+$colores-letras:(
+    submenu: white,
+    carousel: white,
+);
+
+@each $elemento, $color in $colores-letras {
+    .letras--#{$elemento}{
+        color: $color;
+    }
+}
+
+.list-group--bg {
+    background-color: rgb(43, 43, 255);
+}
+
+$titulo1: brown;
+$titulo2: whitesmoke;
+$titulo3: blue;
+
+@each $fondo in titulo1, titulo2, titulo3 {
+    .#{$fondo}-bg {
+        background-image: url(../img/#{$fondo}.jpg)
+    }
+}
+
+.mainAyuda {
+    div {
+        h1 {
+            color: $titulo1;
+        }
+        h2 {
+            color: $titulo2;
+        }
+        h3 {
+            color: $titulo3;
+        }
+    }
+}
