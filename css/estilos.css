@@ -7884,6 +7884,10 @@ textarea.form-control-lg {
 .main__container--dormitorio {
   height: 3500px; }
 
+.offcanvas--fixed {
+  position: fixed;
+  top: 10%; }
+
 .main__container--infantil {
   height: 4500px; }
 

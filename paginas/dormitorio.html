@@ -160,24 +160,34 @@
         </div>
     </header>
 
-    <main class="container-fluid d-flex main__container--dormitorio">
+    <main class="container-fluid d-flex">
 
         <!--MENU STICKY-->
         <section class="section__listaDormitorio">
-        <div id="list-example" class="list-group">
-            <a class="list-group-item list-group-item-action" href="#list-item-1">Cabeceras</a>
-            <a class="list-group-item list-group-item-action" href="#list-item-2">Camas</a>
-            <a class="list-group-item list-group-item-action" href="#list-item-3">Comodas</a>
-            <a class="list-group-item list-group-item-action" href="#list-item-4">Mesas de Luz</a>
-            <a class="list-group-item list-group-item-action" href="#list-item-5">Roperos</a>
-            <a class="list-group-item list-group-item-action" href="#list-item-6">Colchones</a>
-            <a class="list-group-item list-group-item-action" href="#list-item-7">Multiusos</a>
-            <a class="list-group-item list-group-item-action" href="#list-item-8">Somieres</a>
-            <a class="list-group-item list-group-item-action" href="#list-item-9">Toalletes</a>
-            <a class="list-group-item list-group-item-action" href="#list-item-10">Baúles</a>
-            <a class="list-group-item list-group-item-action" href="#list-item-11">Complementos</a>
-            <a class="list-group-item list-group-item-action" href="#list-item-12">Zapateras</a>
-        </div>
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Submenu Dormitrio</button>
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Submenu Dormitorio</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div id="list-example" class="list-group">
+                        <a class="list-group-item list-group-item-action" href="#list-item-1">Cabeceras</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-2">Camas</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-3">Comodas</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-4">Mesas de Luz</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-5">Roperos</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-6">Colchones</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-7">Multiusos</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-8">Somieres</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-9">Toalletes</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-10">Baúles</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-11">Complementos</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-12">Zapateras</a>
+                    </div>
+                </div>
+              </div>
+        
     </section>
 
         <!--CONTENIDO-->
