@@ -8,22 +8,19 @@
     height: 3500px;
 }
 
-.offcanvas--fixed {
-    position: fixed;
-    top: 10%;
-}
-
 .main__container--infantil {
     height: 4500px;
 }
 
-.section__listaDormitorio {
-    height: 100%;
-    margin-right: 3%;
+.btn__fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 4;
 }
 
 .section__contenidoDormitorio {
-    margin-top: 1%;
+    margin: 5%;
 }
 
 //Pagina Contacto
