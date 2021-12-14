@@ -4590,7 +4590,6 @@ textarea.form-control-lg {
   display: none;
   width: 100%;
   justify-content: center;
-  height: 700px;
   backface-visibility: hidden;
   transition: transform 0.6s ease-in-out; }
   @media (prefers-reduced-motion: reduce) {
@@ -7889,8 +7888,8 @@ textarea.form-control-lg {
 
 .btn__fixed {
   position: fixed;
-  bottom: 20px;
-  right: 10px;
+  bottom: 10px;
+  left: 10px;
   z-index: 4; }
 
 .section__contenidoDormitorio {

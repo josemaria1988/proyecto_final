@@ -31,7 +31,6 @@
   display: none;
   width: 100%;
   justify-content: center;
-  height: 700px;
   backface-visibility: hidden;
   @include transition($carousel-transition);
 }
