@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <header class="d-flex justify-content-center bg--header">
+    <header class="d-flex justify-content-center bg--header" id="list-item-0">
         <!--NAVBAR-->
         <nav class="navbar navbar-expand-lg navbar-dark w-100">
             <div class="container-fluid">
@@ -140,7 +140,7 @@
                                 <h6 class="my-0">Descuento</h6>
                                 <small>EJEMPLO</small>
                             </div>
-                            <span class="text-success">−$5</span>
+                            <span class="text-success">$5</span>
                         </li>
                         <li class="list-group-item d-flex justify-content-between">
                             <span>Total (USD)</span>
@@ -159,6 +159,440 @@
             </div>
         </div>
     </header>
+
+    <main class="container-fluid d-flex">
+
+        <!--BOTON MENU-->
+        <section class="btn__fixed">
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            Secciones Dormitorio
+          </button>
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Navegar en Dormitorio</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div id="list-example" class="list-group">
+                    <a class="list-group-item list-group-item-action" href="#list-item-0">Volver Inicio</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-1">Electros Ford</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-2">Centrifugadoras</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-3">Cocinas</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-4">Hornos</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-5">Depuradores</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-6">Refrigeradores</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-7">Cooktop</a>
+                </div>        
+            </div>
+        </section>
+
+        <!--CONTENIDO-->
+        <section class="section__contenidoDormitorio">
+            <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example"
+                tabindex="0">
+                <h4 id="list-item-1">Electros Ford</h4>
+                <article class="row">
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../img/electro/plancha-ford-f903.jpg"
+                                    class="card-img-top" alt="plancha ford f903"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">Plancha de Vapor F903 Ford</h5>
+                                <p class="card-text">Función autolimpieza. Vapor vertical. Selector de temperatura. Base antiadherente. Intensidad de vapor regulable, y más.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-secondary">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../img/electro/tostadera-ford-f1100.jpg" class="card-img-top"
+                                alt="tostadora ford f1100">
+                            <div class="card-body">
+                                <h5 class="card-title">Tostadora F1100 Ford</h5>
+                                <p class="card-text">Expulsión automática. Control de temperatura. 7 niveles de tostado. Potencia 800w. Función descongelar.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-secondary">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <h4 id="list-item-2">Centrifugadoras</h4>
+                <article class="row">
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../img/electro/centrifiga-3-colormaq.jpg"
+                                class="card-img-top" alt="centrifuga colormaq">
+                            <div class="card-body">
+                                <h5 class="card-title">Centrífuga Colormaq Blanco</h5>
+                                <p class="card-text">Capacidad de 15kgs. Tapa translúcida. Canasta inox. Tiradores laterales. Protector de ropas. Apertura automática. Traba de seguridad. Salida de agua estratégica.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <h4 id="list-item-3">Cocinas</h4>
+                <article class="row">
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../img/electro/cocina-4h-essenciale-clarice-negro.jpg"
+                                class="card-img-top" alt="cocina essenciale clarice color negro">
+                            <div class="card-body">
+                                <h5 class="card-title">Cocina 4h Essenciale Clarice Negro</h5>
+                                <p class="card-text">Tapa de vidrio templado. Quemador forjado. Manija metálica. Horno Easy Clean. Encendido eléctrico.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../img/electro/cocina-4h-glass-abbatec-bc.jpg"
+                                class="card-img-top" alt="cocina glass abbatec blanca">
+                            <div class="card-body">
+                                <h5 class="card-title">Cocina 4h Glass Abbatec blanca</h5>
+                                <p class="card-text">Mesada de vidrio templado. Quemadores forjados y esmalatdos. Tirador del horno en aluminio anodizado. Visión total en la puerta del horno. Sin remaches ni tornillos visibles. Easy Clean. Encendido total.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../img/electro/cocina-4h-mbarete-plus-abbatec-ng.jpeg"
+                                class="card-img-top" alt="cocina mbarete plus negra">
+                            <div class="card-body">
+                                <h5 class="card-title">Cocina 4h Mbarete Plus Abbatec negra</h5>
+                                <p class="card-text">Mesada de acero inox. Bordes redondeados. Quemadores esmaltados. Tiradores del horno tubular redondeado. Visión total en la puerta del horno. Sin remaches ni tornillos visibles. Easy Clean. Encendido total.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../img/electro/cocina-4h-mbarete-plus-abbatec-bc.jpeg"
+                                class="card-img-top" alt="cocina mbarete plus blanca">
+                            <div class="card-body">
+                                <h5 class="card-title">Cocina 4h Mbarete Plus Abbatec Blanca</h5>
+                                <p class="card-text">Mesada de acero inox. Bordes redondeados. Quemadores esmaltados. Tiradores del horno tubular redondeado. Visión total en la puerta del horno. Sin remaches ni tornillos visibles. Easy Clean. Encendido total.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <h4 id="list-item-4">Hornos</h4>
+                <article class="row">
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://via.placeholder.com/300"
+                                class="card-img-top" alt="aracaju">
+                            <div class="card-body">
+                                <h5 class="card-title">Ropero Aracaju</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://via.placeholder.com/300"
+                                class="card-img-top" alt="aatcama">
+                            <div class="card-body">
+                                <h5 class="card-title">Ropero Atacama</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://via.placeholder.com/300"
+                                class="card-img-top" alt="b20">
+                            <div class="card-body">
+                                <h5 class="card-title">Ropero B 20</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://via.placeholder.com/300"
+                                class="card-img-top" alt="b63">
+                            <div class="card-body">
+                                <h5 class="card-title">Ropero B 63</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="row">
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://via.placeholder.com/300"
+                                class="card-img-top" alt="aracaju">
+                            <div class="card-body">
+                                <h5 class="card-title">Ropero Aracaju</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://via.placeholder.com/300"
+                                class="card-img-top" alt="aatcama">
+                            <div class="card-body">
+                                <h5 class="card-title">Ropero Atacama</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://via.placeholder.com/300"
+                                class="card-img-top" alt="b20">
+                            <div class="card-body">
+                                <h5 class="card-title">Ropero B 20</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../img/roperos/ropero-6-puertas-B63-Briz-rustico-ambientado-abba-muebles.jpg"
+                                class="card-img-top" alt="b63">
+                            <div class="card-body">
+                                <h5 class="card-title">Ropero B 63</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <h4 id="list-item-5">Depuradores</h4>
+                <article class="row">
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://via.placeholder.com/300"
+                                class="card-img-top" alt="aracaju">
+                            <div class="card-body">
+                                <h5 class="card-title">Ropero 2</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                    of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://via.placeholder.com/300"
+                                class="card-img-top" alt="aatcama">
+                            <div class="card-body">
+                                <h5 class="card-title">Ropero 3</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                    of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://via.placeholder.com/300"
+                                class="card-img-top" alt="b20">
+                            <div class="card-body">
+                                <h5 class="card-title">Ropero 4</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                    of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://via.placeholder.com/300"
+                                class="card-img-top" alt="b63">
+                            <div class="card-body">
+                                <h5 class="card-title">Ropero 5</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                    of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <h4 id="list-item-6">Refrigeradores</h4>
+                <article class="row">
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://via.placeholder.com/300"
+                                class="card-img-top" alt="aracaju">
+                            <div class="card-body">
+                                <h5 class="card-title">Colchones</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                    of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://via.placeholder.com/300"
+                                class="card-img-top" alt="aatcama">
+                            <div class="card-body">
+                                <h5 class="card-title">Colchones</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                    of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://via.placeholder.com/300"
+                                class="card-img-top" alt="b20">
+                            <div class="card-body">
+                                <h5 class="card-title">Colchones</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                    of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://via.placeholder.com/300"
+                                class="card-img-top" alt="b63">
+                            <div class="card-body">
+                                <h5 class="card-title">Colchones</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                    of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <h4 id="list-item-7">Cooktop</h4>
+                <article class="row">
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://via.placeholder.com/300"
+                                class="card-img-top" alt="aracaju">
+                            <div class="card-body">
+                                <h5 class="card-title">Multiusos de un uso solo</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                    of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://via.placeholder.com/300"
+                                class="card-img-top" alt="aatcama">
+                            <div class="card-body">
+                                <h5 class="card-title">Multiusos de un uso solo</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                    of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://via.placeholder.com/300"
+                                class="card-img-top" alt="b20">
+                            <div class="card-body">
+                                <h5 class="card-title">Multiusos de un uso solo</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                    of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://via.placeholder.com/300"
+                                class="card-img-top" alt="b63">
+                            <div class="card-body">
+                                <h5 class="card-title">Multiusos de un uso solo</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                    of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+        </section>
+    </main>
 
     <footer class="d-flex flex-wrap justify-content-around aligh-items-center py-3 my-4 border-top">
         <div class="col-md-4 d-flex align-items-center">
