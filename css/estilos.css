@@ -282,7 +282,7 @@ button {
 button:focus:not(:focus-visible) {
   outline: 0; }
 
-input,
+input, .form-contacto textarea,
 button,
 select,
 optgroup,
@@ -7894,44 +7894,31 @@ textarea.form-control-lg {
 .section__contenidoDormitorio {
   margin: 5%; }
 
-.mainContacto {
-  margin: 5%;
-  flex-direction: column;
-  width: 100%; }
+/*---PAGINA CONTACTO---*/
+.form-contacto {
+  width: 350px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px; }
+  .form-contacto h2, .form-contacto .h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 20px; }
+  .form-contacto input, .form-contacto textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px; }
+  .form-contacto textarea {
+    min-height: 200px;
+    max-height: 300px;
+    max-width: 100%; }
 
-.h2-contacto {
-  text-align: center; }
-
-.formContacto {
-  margin: 5%;
-  padding: 5%; }
-
-.container-div {
-  width: 100%; }
-
-.contenedorDiv-contacto {
-  position: relative;
-  display: inline-block;
-  text-align: center; }
-  .contenedorDiv-contacto img {
-    align-items: center; }
-
-.texto-contacto {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  color: white; }
-
-.mainAyuda {
-  display: block;
-  width: 100%;
-  text-align: center;
-  margin-top: 3%;
-  margin-bottom: 3%; }
-  .mainAyuda div {
-    height: 300px;
-    position: relative; }
-    .mainAyuda div h1, .mainAyuda div .h1, .mainAyuda div h2, .mainAyuda div .h2, .mainAyuda div h3, .mainAyuda div .h3 {
-      position: absolute;
-      bottom: 50%;
-      left: 25%; }
+.bg-image {
+  background-image: url(img/sobrenosotros.jpt); }

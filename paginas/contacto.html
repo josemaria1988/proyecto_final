@@ -197,38 +197,25 @@
 
     <!--Breve reseña sobre nosotros-->
 
-    <main class="mainContacto container-fluid d-flex">
+    <main class="container d-flex">
         <section class="container">
-            <div class="container-div">
-            <h2 class="h2-contacto">Contactanos!</h1>
-                
-                <div class="contenedorDiv-contacto">
-                    <img class="figure-img img-fluid rounded" src="../img/sobrenosotros.jpg" alt="perritos">
-                    <p class="texto-contacto">Si necesitas contactarnos para hacer alguna consulta o simplemente para
-                        dejar tu comentario, por favor sentite libre de hacerlo. Respondemos en horario laboral (GMT-3)
-                        (Asunción, Paraguay).</p>
-                </div>
-            </div>
+
+            <h2 class="titulo-contacto">Contactanos!</h1>
+                <img class="figure-img img-fluid rounded" src="../img/sobrenosotros.jpg" alt="perritos">
+                <p class="texto-contacto">Si necesitas contactarnos para hacer alguna consulta o simplemente para
+                    dejar tu comentario, por favor sentite libre de hacerlo. Respondemos en horario laboral (GMT-3)
+                    (Asunción, Paraguay).</p>
         </section>
-        
+
         <section class="container">
             <!--Formulario de Contacto-->
-            <form class="formContacto">
-                <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Nombre">
-                </div>
-                <div class="mb-3">
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="E-mail">
-                </div>
-                <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Asunto">
-                </div>
-                <div class="mb-3">
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
-                </div>
-
-                <button type="submit" class="btn btn-primary">Enviar</button>
+            <form class="form-contacto">
+                <h2>Contancto!</h2>
+                <input type="text" name="Nombre" placeholder="Nombre">
+                <input type="text" name="email" placeholder="Correo">
+                <input type="text" name="telefono" placeholder="Teléfono">
+                <textarea name="mensaje" placeholder="Escriba aquí su mensaje"></textarea>
+                <input type="button" value="ENVIAR">
             </form>
         </section>
     </main>
