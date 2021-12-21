@@ -7876,15 +7876,6 @@ textarea.form-control-lg {
   font-weight: bold; }
 
 /*--------------PAGINA GRILLA-------------*/
-.main__container {
-  height: 8500px; }
-
-.main__container--dormitorio {
-  height: 3500px; }
-
-.main__container--infantil {
-  height: 4500px; }
-
 .btn__fixed {
   position: fixed;
   bottom: 10px;
@@ -7919,3 +7910,17 @@ textarea.form-control-lg {
     min-height: 200px;
     max-height: 300px;
     max-width: 100%; }
+
+/*---PAGINA OFERTAS---*/
+.mainOfertas {
+  margin-top: 5%;
+  width: 100%;
+  text-align: center;
+  align-items: center; }
+  .mainOfertas h1, .mainOfertas .h1, .mainOfertas h2, .mainOfertas .h2 {
+    background: brown;
+    color: white;
+    margin-top: 2%; }
+  .mainOfertas .imagen-carrusel {
+    background-color: whitesmoke;
+    max-width: 600px; }
