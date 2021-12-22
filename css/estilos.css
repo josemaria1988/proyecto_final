@@ -7912,6 +7912,29 @@ textarea.form-control-lg {
     max-width: 100%; }
 
 /*---PAGINA OFERTAS---*/
+.contenedorOfertas {
+  width: 100%;
+  min-height: 455px;
+  position: relative;
+  display: inline-block;
+  text-align: center; }
+  .contenedorOfertas .titulo-encima {
+    position: absolute;
+    top: 30px;
+    left: 40%;
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.3); }
+  .contenedorOfertas .parrafo-encima {
+    position: absolute;
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.3);
+    bottom: 30px;
+    right: 10px;
+    font-size: 21px; }
+  .contenedorOfertas img {
+    width: 100%;
+    min-height: 455px; }
+
 .mainOfertas {
   margin-top: 5%;
   width: 100%;
