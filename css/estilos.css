@@ -7923,7 +7923,7 @@ textarea.form-control-lg {
     top: 30px;
     left: 40%;
     color: whitesmoke;
-    background: rgba(0, 0, 0, 0.3); }
+    background: rgba(165, 42, 42, 0.8); }
   .contenedorOfertas .parrafo-encima {
     position: absolute;
     color: whitesmoke;
@@ -7936,14 +7936,17 @@ textarea.form-control-lg {
     min-height: 455px; }
 
 .mainOfertas {
-  margin-top: 5%;
   width: 100%;
   text-align: center;
   align-items: center; }
-  .mainOfertas h1, .mainOfertas .h1, .mainOfertas h2, .mainOfertas .h2 {
+  .mainOfertas h2, .mainOfertas .h2 {
     background: brown;
-    color: white;
-    margin-top: 2%; }
+    color: white; }
   .mainOfertas .imagen-carrusel {
     background-color: whitesmoke;
     max-width: 600px; }
+
+/*---INICIO PAGINA MEDIA QUERIES---*/
+@media (max-width: 468px) {
+  .mainOfertas section {
+    flex-direction: column; } }

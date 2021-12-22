@@ -1,0 +1,10 @@
+/*---INICIO PAGINA MEDIA QUERIES---*/
+
+//media para carruseles de pagina ofertas
+@media (max-width: 468px) {
+    .mainOfertas {
+        section {
+            flex-direction: column;
+        }
+    }
+}
