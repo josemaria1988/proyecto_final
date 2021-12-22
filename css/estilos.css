@@ -7819,6 +7819,19 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+/*---INICIO PAGINA MEDIA QUERIES---*/
+@media (max-width: 468px) {
+  .mainOfertas section {
+    flex-direction: column; } }
+
+@media (max-width: 800px) {
+  .section__menuSticky {
+    display: none; } }
+
+@media (min-width: 801px) {
+  .btn__fixed {
+    display: none; } }
+
 /*----------COMIENZA ARCHIVO DE COLORES----------*/
 .bg--header {
   background-color: brown; }
@@ -7883,7 +7896,7 @@ textarea.form-control-lg {
   z-index: 4; }
 
 .section__contenidoDormitorio {
-  margin: 5%; }
+  margin: 2%; }
 
 /*---PAGINA CONTACTO---*/
 .form-contacto {
@@ -7945,8 +7958,3 @@ textarea.form-control-lg {
   .mainOfertas .imagen-carrusel {
     background-color: whitesmoke;
     max-width: 600px; }
-
-/*---INICIO PAGINA MEDIA QUERIES---*/
-@media (max-width: 468px) {
-  .mainOfertas section {
-    flex-direction: column; } }

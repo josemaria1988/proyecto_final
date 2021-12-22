@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <header class="d-flex justify-content-center bg--header font--header">
+    <header class="d-flex justify-content-center bg--header font--header" id="list-item-0">
         <!--NAVBAR-->
         <nav class="navbar navbar-expand-lg navbar-dark encabezado w-100">
             <div class="container-fluid">
@@ -188,33 +188,55 @@
 
     <main class="container-fluid d-flex">
 
+        <!--MENU STICKY-->
+        <section class="section__menuSticky">
+            <div id="list-example" class="list-group">
+                <a class="list-group-item list-group-item-action" href="#list-item-0">Volver Inicio</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-1">Cabeceras</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-2">Camas</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-3">Comodas</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-4">Mesas de Luz</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-5">Roperos</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-6">Colchones</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-7">Multiusos</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-8">Somieres</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-9">Toalletes</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-10">Baúles</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-11">Complementos</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-12">Zapateras</a>
+            </div>
+        </section>
+
         <!--BOTON MENU-->
         <section class="btn__fixed">
-        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-            Secciones Dormitorio
-          </button>
-          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Navegar en Dormitorio</h5>
-              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-                <div id="list-example" class="list-group">
-                    <a class="list-group-item list-group-item-action" href="#list-item-0">Volver Inicio</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-1">Cabeceras</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-2">Camas</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-3">Comodas</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-4">Mesas de Luz</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-5">Roperos</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-6">Colchones</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-7">Multiusos</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-8">Somieres</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-9">Toalletes</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-10">Baúles</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-11">Complementos</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-12">Zapateras</a>
-                </div>        
-            </div>
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                aria-controls="offcanvasExample">
+                Secciones Dormitorio
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Navegar en Dormitorio</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div id="list-example" class="list-group">
+                        <a class="list-group-item list-group-item-action" href="#list-item-0">Volver Inicio</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-1">Cabeceras</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-2">Camas</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-3">Comodas</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-4">Mesas de Luz</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-5">Roperos</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-6">Colchones</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-7">Multiusos</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-8">Somieres</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-9">Toalletes</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-10">Baúles</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-11">Complementos</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-12">Zapateras</a>
+                    </div>
+                </div>
         </section>
 
         <!--CONTENIDO-->
@@ -230,7 +252,8 @@
                                     class="card-img-top" alt="acapulco"></a>
                             <div class="card-body">
                                 <h5 class="card-title">Cabecera Acapulco J&A Itauba</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the
                                     bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
@@ -244,7 +267,8 @@
                                 alt="calenda">
                             <div class="card-body">
                                 <h5 class="card-title">Cabecera Calenda Rústico</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the
                                     bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
@@ -258,7 +282,8 @@
                                 alt="detroit">
                             <div class="card-body">
                                 <h5 class="card-title">Cabecera Detroit Itauba</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the
                                     bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
@@ -272,7 +297,8 @@
                                 class="card-img-top" alt="imperial">
                             <div class="card-body">
                                 <h5 class="card-title">Cabecera Imperia</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the
                                     bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
@@ -290,7 +316,8 @@
                                 class="card-img-top" alt="aracaju">
                             <div class="card-body">
                                 <h5 class="card-title">Ropero Aracaju</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the
                                     bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
@@ -305,7 +332,8 @@
                                 class="card-img-top" alt="aatcama">
                             <div class="card-body">
                                 <h5 class="card-title">Ropero Atacama</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the
                                     bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
@@ -320,7 +348,8 @@
                                 class="card-img-top" alt="b20">
                             <div class="card-body">
                                 <h5 class="card-title">Ropero B 20</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the
                                     bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
@@ -335,7 +364,8 @@
                                 class="card-img-top" alt="b63">
                             <div class="card-body">
                                 <h5 class="card-title">Ropero B 63</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the
                                     bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
@@ -353,7 +383,8 @@
                                 class="card-img-top" alt="aracaju">
                             <div class="card-body">
                                 <h5 class="card-title">Ropero Aracaju</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the
                                     bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
@@ -368,7 +399,8 @@
                                 class="card-img-top" alt="aatcama">
                             <div class="card-body">
                                 <h5 class="card-title">Ropero Atacama</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the
                                     bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
@@ -383,7 +415,8 @@
                                 class="card-img-top" alt="b20">
                             <div class="card-body">
                                 <h5 class="card-title">Ropero B 20</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the
                                     bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
@@ -398,7 +431,8 @@
                                 class="card-img-top" alt="b63">
                             <div class="card-body">
                                 <h5 class="card-title">Ropero B 63</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the
                                     bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
@@ -416,7 +450,8 @@
                                 class="card-img-top" alt="aracaju">
                             <div class="card-body">
                                 <h5 class="card-title">Ropero Aracaju</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the
                                     bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
@@ -431,7 +466,8 @@
                                 class="card-img-top" alt="aatcama">
                             <div class="card-body">
                                 <h5 class="card-title">Ropero Atacama</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the
                                     bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
@@ -446,7 +482,8 @@
                                 class="card-img-top" alt="b20">
                             <div class="card-body">
                                 <h5 class="card-title">Ropero B 20</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the
                                     bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
@@ -461,7 +498,8 @@
                                 class="card-img-top" alt="b63">
                             <div class="card-body">
                                 <h5 class="card-title">Ropero B 63</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the
                                     bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
@@ -479,7 +517,8 @@
                                 class="card-img-top" alt="aracaju">
                             <div class="card-body">
                                 <h5 class="card-title">Ropero Aracaju</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the
                                     bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
@@ -494,7 +533,8 @@
                                 class="card-img-top" alt="aatcama">
                             <div class="card-body">
                                 <h5 class="card-title">Ropero Atacama</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the
                                     bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
@@ -509,7 +549,8 @@
                                 class="card-img-top" alt="b20">
                             <div class="card-body">
                                 <h5 class="card-title">Ropero B 20</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the
                                     bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
@@ -524,7 +565,8 @@
                                 class="card-img-top" alt="b63">
                             <div class="card-body">
                                 <h5 class="card-title">Ropero B 63</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the
                                     bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
@@ -538,53 +580,53 @@
                 <article class="row">
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="aracaju">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aracaju">
                             <div class="card-body">
                                 <h5 class="card-title">Ropero 2</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="aatcama">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aatcama">
                             <div class="card-body">
                                 <h5 class="card-title">Ropero 3</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="b20">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b20">
                             <div class="card-body">
                                 <h5 class="card-title">Ropero 4</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="b63">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b63">
                             <div class="card-body">
                                 <h5 class="card-title">Ropero 5</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
@@ -597,53 +639,53 @@
                 <article class="row">
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="aracaju">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aracaju">
                             <div class="card-body">
                                 <h5 class="card-title">Colchones</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="aatcama">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aatcama">
                             <div class="card-body">
                                 <h5 class="card-title">Colchones</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="b20">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b20">
                             <div class="card-body">
                                 <h5 class="card-title">Colchones</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="b63">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b63">
                             <div class="card-body">
                                 <h5 class="card-title">Colchones</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
@@ -656,53 +698,53 @@
                 <article class="row">
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="aracaju">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aracaju">
                             <div class="card-body">
                                 <h5 class="card-title">Multiusos de un uso solo</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="aatcama">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aatcama">
                             <div class="card-body">
                                 <h5 class="card-title">Multiusos de un uso solo</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="b20">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b20">
                             <div class="card-body">
                                 <h5 class="card-title">Multiusos de un uso solo</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="b63">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b63">
                             <div class="card-body">
                                 <h5 class="card-title">Multiusos de un uso solo</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
@@ -715,53 +757,53 @@
                 <article class="row">
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="aracaju">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aracaju">
                             <div class="card-body">
                                 <h5 class="card-title">Somieres Sueños húmedos</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="aatcama">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aatcama">
                             <div class="card-body">
                                 <h5 class="card-title">Somieres Sueños húmedos</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="b20">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b20">
                             <div class="card-body">
                                 <h5 class="card-title">Somieres Sueños húmedos</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="b63">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b63">
                             <div class="card-body">
                                 <h5 class="card-title">Somieres Sueños húmedos</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
@@ -774,53 +816,53 @@
                 <article class="row">
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="aracaju">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aracaju">
                             <div class="card-body">
                                 <h5 class="card-title">Toalletes Toallitas</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="aatcama">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aatcama">
                             <div class="card-body">
                                 <h5 class="card-title">Toalletes Toallitas</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="b20">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b20">
                             <div class="card-body">
                                 <h5 class="card-title">Toalletes Toallitas</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="b63">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b63">
                             <div class="card-body">
                                 <h5 class="card-title">Toalletes Toallitas</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
@@ -833,53 +875,53 @@
                 <article class="row">
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="aracaju">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aracaju">
                             <div class="card-body">
                                 <h5 class="card-title">Baules sin fondo</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="aatcama">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aatcama">
                             <div class="card-body">
                                 <h5 class="card-title">Baules sin fondo</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="b20">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b20">
                             <div class="card-body">
                                 <h5 class="card-title">Baules sin fondo</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="b63">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b63">
                             <div class="card-body">
                                 <h5 class="card-title">Baules sin fondo</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
@@ -892,53 +934,53 @@
                 <article class="row">
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="aracaju">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aracaju">
                             <div class="card-body">
                                 <h5 class="card-title">Complementos complementarios</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="aatcama">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aatcama">
                             <div class="card-body">
                                 <h5 class="card-title">Complementos complementarios</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="b20">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b20">
                             <div class="card-body">
                                 <h5 class="card-title">Complementos complementarios</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="b63">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b63">
                             <div class="card-body">
                                 <h5 class="card-title">Complementos complementarios</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
@@ -951,53 +993,53 @@
                 <article class="row">
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="aracaju">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aracaju">
                             <div class="card-body">
                                 <h5 class="card-title">Zapatera super zapateada</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="aatcama">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aatcama">
                             <div class="card-body">
                                 <h5 class="card-title">Zapatera super zapateada</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="b20">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b20">
                             <div class="card-body">
                                 <h5 class="card-title">Zapatera super zapateada</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300"
-                                class="card-img-top" alt="b63">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b63">
                             <div class="card-body">
                                 <h5 class="card-title">Zapatera super zapateada</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk
                                     of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                                 <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>

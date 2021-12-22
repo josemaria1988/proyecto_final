@@ -8,3 +8,16 @@
         }
     }
 }
+
+//media para menu sticky y menu offcanvas en paginas de categorias
+@media (max-width: 800px) {
+    .section__menuSticky {
+        display: none;
+    }
+}
+
+@media (min-width: 801px) {
+    .btn__fixed {
+        display: none;
+    }
+}
