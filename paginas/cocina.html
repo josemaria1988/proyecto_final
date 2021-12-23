@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <header class="d-flex justify-content-center bg--header font--header">
+    <header class="d-flex justify-content-center bg--header font--header" id="list-item-0">
         <!--NAVBAR-->
         <nav class="navbar navbar-expand-lg navbar-dark encabezado w-100">
             <div class="container-fluid">
@@ -169,7 +169,7 @@
                                     <h6 class="my-0">Descuento</h6>
                                     <small>EJEMPLO</small>
                                 </div>
-                                <span class="text-success">−$5</span>
+                                <span class="text-success">$5</span>
                             </li>
                             <li class="list-group-item d-flex justify-content-between">
                                 <span>Total (USD)</span>
@@ -195,18 +195,12 @@
         <section class="section__menuSticky">
             <div id="list-example" class="list-group">
                 <a class="list-group-item list-group-item-action" href="#list-item-0">Volver Inicio</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-1">Aparadores</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-2">Estantes</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-3">Mesas de Centro</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-4">Racks</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-5">Home Theater</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-6">Paneles para Tv</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-7">Complementos Sala</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-8">Para Tv de 70"</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-9">Para Tv de 65"</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-10">Para Tv de 60"</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-11">Para Tv de 55"</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-12">Para Tv de 50"</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-1">Kit de Cocina</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-2">Sillas Cocina</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-3">Balcones Cocina</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-4">Fruteras</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-5">Modulados</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-6">Piletas y Tampos</a>
             </div>
         </section>
 
@@ -226,851 +220,1265 @@
                 <div class="offcanvas-body">
                     <div id="list-example" class="list-group">
                         <a class="list-group-item list-group-item-action" href="#list-item-0">Volver Inicio</a>
-                        <a class="list-group-item list-group-item-action" href="#list-item-1">Aparadores</a>
-                        <a class="list-group-item list-group-item-action" href="#list-item-2">Estantes</a>
-                        <a class="list-group-item list-group-item-action" href="#list-item-3">Mesas de Centro</a>
-                        <a class="list-group-item list-group-item-action" href="#list-item-4">Racks</a>
-                        <a class="list-group-item list-group-item-action" href="#list-item-5">Home Theater</a>
-                        <a class="list-group-item list-group-item-action" href="#list-item-6">Paneles para Tv</a>
-                        <a class="list-group-item list-group-item-action" href="#list-item-7">Complementos Sala</a>
-                        <a class="list-group-item list-group-item-action" href="#list-item-8">Para Tv de 70"</a>
-                        <a class="list-group-item list-group-item-action" href="#list-item-9">Para Tv de 65"</a>
-                        <a class="list-group-item list-group-item-action" href="#list-item-10">Para Tv de 60"</a>
-                        <a class="list-group-item list-group-item-action" href="#list-item-11">Para Tv de 55"</a>
-                        <a class="list-group-item list-group-item-action" href="#list-item-12">Para Tv de 50"</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-1">Kit de Cocina</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-2">Sillas Cocina</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-3">Balcones Cocina</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-4">Fruteras</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-5">Modulados</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-6">Piletas y Tampos</a>
                     </div>
                 </div>
         </section>
 
         <!--CONTENIDO-->
         <section class="section__contenidoDormitorio">
+
             <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example"
                 tabindex="0">
-                <h4 id="list-item-1">Aparadores</h4>
+                <h4 id="list-item-1">Kits de Cocina</h4>
                 <article class="row">
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <a href="../paginas/cabecera-acapulco.html"><img src="https://via.placeholder.com/300"
-                                    class="card-img-top" alt="acapulco"></a>
+                            <!--MODAL 1-->
+                            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">Conjunto Cerona</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid"
+                                                    src="../img/cocina/conjunto-cerona-colormaq-blanco-grafito-ambiente-abba-muebles.jpg">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/conjunto-cerona.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/conjunto-cerona-colormaq-blanco-grafito-ambiente-abba-muebles.jpg"
+                                class="card-img-top" data-bs-toggle="modal" data-bs-target="#exampleModal1"
+                                alt="Conjunto Cerona">
                             <div class="card-body">
-                                <h5 class="card-title">Aparador Super Lindo</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
+                                <h5 class="card-title">Conjunto Cerona Blanco/Grafito</h5>
+                                <p class="card-text">Hecho de acero. No incluye tampo. Soporta pileta. 3 cajones con
+                                    corredizas metálicas. Patas de plástico. No incluye fondo. Balcón queda 2cm lejos de
+                                    la pared.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
+                                <a href="../paginas/conjunto_cerona.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="calenda">
+                            <!--MODAL 2-->
+                            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">Cristalera 8925T</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid"
+                                                    src="../img/cocina/cristalera-5-puertas-8925T-ambiente-600x600.jpg">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/cristalera-8925t.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/cristalera-5-puertas-8925T-ambiente-600x600.jpg"
+                                class="card-img-top" data-bs-toggle="modal" data-bs-target="#exampleModal2"
+                                alt="Cristalera 8925T">
                             <div class="card-body">
-                                <h5 class="card-title">Aparador Super lindo 2</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
+                                <h5 class="card-title">Cristalera Fiambrera 8925T Finestra/Imbuia 100% Madera
+                                    natural.
+                                </h5>
+                                <p class="card-text">Hecho en madera maciza. Tiradores de madera. Bisagras de metal.
+                                    Bodega opcional en el montaje. Incluye adhesivo. Corredizas metálicas. Patas
+                                    macizas
+                                    torneadas.</p>
+                                <a href="../paginas/cristalera_8925t.html" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/cristalera_8925t.html" class="btn btn-secondary">Más
+                                    opciones</a>
                             </div>
                         </div>
                     </div>
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="detroit">
+                            <!--MODAL 3-->
+                            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">Cocina PAN 8 Puertas</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid"
+                                                    src="../img/cocina/kit-cocina-pan-8p-ktp-blanco-ambiente-tex-negro-tex-abba-muebles-600x600.jpg">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/kit-pan-8p.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/kit-cocina-pan-8p-ktp-blanco-ambiente-tex-negro-tex-abba-muebles-600x600.jpg"
+                                class="card-img-top" data-bs-toggle="modal" data-bs-target="#exampleModal3"
+                                alt="detroit"></a>
                             <div class="card-body">
-                                <h5 class="card-title">Aparador mega Super Lindo 3</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
+                                <h5 class="card-title">KIT COCINA PAN 8 PUERTAS KITS PARANA BLANCO TEX|NEGRO TEX
+                                </h5>
+                                <p class="card-text">Incluye tampo. No soporta pileta. 2 puertas con vidrio. 2
+                                    cajones
+                                    grandes con corredizas metálicas. Patas de plástico. Incluye fondo.</p>
+                                <a href="../paginas/kit_pan_8p.html" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/kit_pan_8p.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="imperial">
+                            <!--MODAL 4-->
+                            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">CRISTALERA 5P ECCO 1110T
+                                                    FINESTRA IMBUIA</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid"
+                                                    src="../img/cocina/cristalera-5-puertas-1110T-finestra-imbuia-ambiente.jpg"
+                                                    alt="Cristalera 1110T">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/cristalera-1110t.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/cristalera-5-puertas-1110T-finestra-imbuia-ambiente.jpg"
+                                class="card-img-top" data-bs-toggle="modal" data-bs-target="#exampleModal4"
+                                alt="imperial">
                             <div class="card-body">
-                                <h5 class="card-title">Aparador Super Lindo 4</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
+                                <h5 class="card-title">CRISTALERA 5P ECCO 1110T FINESTRA IMBUIA</h5>
+                                <p class="card-text">No soporta pileta. Incluye tampo. 2 puertas con vidrio. Tiradores
+                                    de madera. Cajones con corredizas metálicas. Patas macizas de madera.</p>
+                                <a href="../paginas/cristalera-1110t.html" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/cristalera-1110t.html" class="btn btn-secondary">Más opciones</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <!--MODAL 5-->
+                            <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">KIT COCINA PAN 6 PUERTAS
+                                                    KITS PARANA NOGAL|WHITE</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid"
+                                                    src="../img/cocina/kit-cocina-pan-6-puertas-nogal-white-ambiente-abba-muebles.jpg"
+                                                    alt="Kit Pan 6 Puertas">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/kit-pan-6p.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/kit-cocina-pan-6-puertas-nogal-white-ambiente-abba-muebles.jpg"
+                                class="card-img-top" data-bs-toggle="modal" data-bs-target="#exampleModal5"
+                                alt="Kit Pan 6 Puertas">
+                            <div class="card-body">
+                                <h5 class="card-title">KIT COCINA PAN 6 PUERTAS KITS PARANA NOGAL|WHITE</h5>
+                                <p class="card-text">Incluye tampo. No soporta pileta. 1 puerta con vidrio. 1 cajón con
+                                    corredizas metálicas. Patas de plástico. Incluye fondo.</p>
+                                <a href="../paginas/kit-pan-6p.html" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/kit-pan-6p.html" class="btn btn-secondary">Más opciones</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <!--MODAL 6-->
+                            <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">KIT COCINA ASUNCION
+                                                    SALMAR CASTAÑO|ARTICO</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid"
+                                                    src="../img/cocina/kit-cocina-asuncion-salmar-castanho-artico-ambiente-abba-muebles.jpg"
+                                                    alt="Kit Asuncion Salmar">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/kit-asuncion-salmar.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/kit-cocina-asuncion-salmar-castanho-artico-ambiente-abba-muebles.jpg"
+                                class="card-img-top" data-bs-toggle="modal" data-bs-target="#exampleModal6"
+                                alt="Kit Asuncion Salmar">
+                            <div class="card-body">
+                                <h5 class="card-title">KIT COCINA ASUNCION SALMAR CASTAÑO|ARTICO</h5>
+                                <p class="card-text">Puertas y tampo de 15mm. Soporta pileta. No incluye tampo. Espacio
+                                    para horno y microondas. Corredizas metálicas. Patas de plástico con altura
+                                    regulable. No incluye fondo.</p>
+                                <a href="../paginas/kit-asuncion-salmar.html" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/kit-asuncion-salmar.html" class="btn btn-secondary">Más opciones</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <!--MODAL 7-->
+                            <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">KIT COCINA B107 BRIZ
+                                                    NATURE|OFF WHITE</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid"
+                                                    src="../img/cocina/kit-cocina-B107-briz-nature-off-white-ambiente-abba-muebles.jpg"
+                                                    alt="Kit B107">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/kit-b107.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/kit-cocina-B107-briz-nature-off-white-ambiente-abba-muebles.jpg"
+                                class="card-img-top" data-bs-toggle="modal" data-bs-target="#exampleModal7"
+                                alt="Kit B107">
+                            <div class="card-body">
+                                <h5 class="card-title">KIT COCINA B107 BRIZ NATURE|OFF WHITE</h5>
+                                <p class="card-text">Incluye tampo. No soporta pileta. Espacio para microondas. 2
+                                    cajones con corredizas metálicas. Patas en ABS con altura regulable. No incluye
+                                    fondo.</p>
+                                <a href="../paginas/kit-b107.html" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/kit-b107.html" class="btn btn-secondary">Más opciones</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <!--MODAL 8-->
+                            <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">KIT COCINA B114 BRIZ
+                                                    RÚSTICO|CRISTAL</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid"
+                                                    src="../img/cocina/kit-cocina-b114-rustico-cristal-ambiente-abba-muebles.jpg"
+                                                    alt="Kit B144">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/kit-b114.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/kit-cocina-b114-rustico-cristal-ambiente-abba-muebles.jpg"
+                                class="card-img-top" data-bs-toggle="modal" data-bs-target="#exampleModal8"
+                                alt="Kit B114">
+                            <div class="card-body">
+                                <h5 class="card-title">KIT COCINA B114 BRIZ RÚSTICO|CRISTAL</h5>
+                                <p class="card-text">Incluye tampo. No soporta pileta. 1 cajón con corredizas metálicas.
+                                    Tiradores de color bronce. Patas de plástico con altura regulable. 1 puerta
+                                    basculante con articulador. Incluye fondo.</p>
+                                <a href="../paginas/kit-b114.html" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/kit-b114.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
                 </article>
 
-                <h4 id="list-item-2">Estantes</h4>
+                <h4 id="list-item-2">Sillas Cocina</h4>
                 <article class="row">
+
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aracaju">
+                            <!--MODAL 9-->
+                            <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">BANQUETA ALTA MALIBU
+                                                    FABONE NEGRO CRAQUELADO</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid"
+                                                    src="../img/cocina/banqueta-alta-malibu-fabone-ambiente-abba-muebles.jpg"
+                                                    alt="Banqueta Malibu">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/banqueta-malibu.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/banqueta-alta-malibu-fabone-ambiente-abba-muebles.jpg"
+                                class="card-img-top" data-bs-toggle="modal" data-bs-target="#exampleModal9"
+                                alt="Banqueta Malibu">
                             <div class="card-body">
-                                <h5 class="card-title">Estante Re Práctico</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
+                                <h5 class="card-title">BANQUETA ALTA MALIBU FABONE NEGRO CRAQUELADO</h5>
+                                <p class="card-text">Estructura de metal. Color negro craquelado. Diseño ergonómico.
+                                    Asientos con espuma de alta densidad.</p>
+                                <a href="../paginas/banqueta-malibu.html" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/banqueta-malibu.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aatcama">
+                            <!--MODAL 10-->
+                            <div class="modal fade" id="exampleModal10" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">BUTACA 105 CARRARO JEANS
+                                                </h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid"
+                                                    src="../img/cocina/butaca-105-car-jeans-ambiente-abba-muebles.jpg"
+                                                    alt="Butaca 105">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/butaca-105.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/butaca-105-car-jeans-ambiente-abba-muebles.jpg" class="card-img-top"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal10" alt="Butaca 105">
                             <div class="card-body">
-                                <h5 class="card-title">Estante Re Práctico 2</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
+                                <h5 class="card-title">BUTACA 105 CARRARO JEANS</h5>
+                                <p class="card-text">Estructura de metal cromado. Diseño ergonómico. Asientos color
+                                    negro con espuma de alta densidad.</p>
+                                <a href="../paginas/butaca-105.html" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/butaca-105.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b20">
-                            <div class="card-body">
-                                <h5 class="card-title">Estante Re Practico 3</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
+                            <!--MODAL 11-->
+                            <div class="modal fade" id="exampleModal11" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">SILLA GOURMET WEIHERMANN
+                                                    CAPUCCINO</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid" src="../img/cocina/SILLA-GOURMET-WEI-CP.jpg"
+                                                    alt="Butaca 105">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/silla-gourmet-weihermann.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300g" class="card-img-top" alt="b63">
+                            <img src="../img/cocina/SILLA-GOURMET-WEI-CP.jpg" class="card-img-top"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal11" alt="Butaca 105">
                             <div class="card-body">
-                                <h5 class="card-title">Estante Re Practico 4</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
+                                <h5 class="card-title">SILLA GOURMET WEIHERMANN CAPUCCINO</h5>
+                                <p class="card-text">Mueble de madera. Madera de pino reforestada</p>
+                                <a href="../paginas/silla-gourmet-weihermann.html" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/silla-gourmet-weihermann.html" class="btn btn-secondary">Más
+                                    opciones</a>
                             </div>
                         </div>
                     </div>
                 </article>
 
-                <h4 id="list-item-3">Comodas</h4>
+                <h4 id="list-item-3">Balcones de Cocina</h4>
                 <article class="row">
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aracaju">
+                            <!--MODAL 12-->
+                            <div class="modal fade" id="exampleModal12" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">BALCON 1200 COLOMBIA
+                                                    SALMAR BLANCO</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid"
+                                                    src="../img/cocina/Balcon-Colombia-blanco-con-pileta-Ambiente-Abba-Muebles-.jpg"
+                                                    alt="Butaca 105">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/balcon-colombia.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/Balcon-Colombia-blanco-con-pileta-Ambiente-Abba-Muebles-.jpg"
+                                class="card-img-top" data-bs-toggle="modal" data-bs-target="#exampleModal12"
+                                alt="Butaca 105">
                             <div class="card-body">
-                                <h5 class="card-title">Estante Re Practico 5</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
+                                <h5 class="card-title">BALCON 1200 COLOMBIA SALMAR BLANCO</h5>
+                                <p class="card-text">Soporta pileta. No incluye tampo. 1 cajón con corredizas metálicas.
+                                    Patas de plástico con altura regulable. Pileta vendido separadamente.</p>
+                                <a href="../paginas/balcon-colombia.html" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/balcon-colombia.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aatcama">
+                            <!--MODAL 13-->
+                            <div class="modal fade" id="exampleModal13" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">BALCÓN COOKTOP NT3050
+                                                    NOTAVEL BLANCO</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid"
+                                                    src="../img/cocina/balcon-cooktop-nt3050-notavel-blanco-ambiente-abba-muebles.jpg"
+                                                    alt="Balcon Cooktop NT3050">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/balcon-cooktop-nt3050.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/balcon-cooktop-nt3050-notavel-blanco-ambiente-abba-muebles.jpg"
+                                class="card-img-top" data-bs-toggle="modal" data-bs-target="#exampleModal13"
+                                alt="Balcon Cooktop NT3050">
                             <div class="card-body">
-                                <h5 class="card-title">Estante Re Practico 6</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
+                                <h5 class="card-title">BALCÓN COOKTOP NT3050 NOTAVEL BLANCO</h5>
+                                <p class="card-text">Incluye tampo. Tampo con recorte para cooktop. Tiradores perfil de
+                                    plástico. Cajón con corredizas telescopicas.</p>
+                                <a href="../paginas/balcon-cooktop-nt3050.html" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/balcon-cooktop-nt3050.html" class="btn btn-secondary">Más
+                                    opciones</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b20">
+                            <!--MODAL 14-->
+                            <div class="modal fade" id="exampleModal14" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">BALCON DALLAS NOTAVEL
+                                                    BLANCO</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid"
+                                                    src="../img/cocina/balcon-dallas-blanco-ambiente.jpg"
+                                                    alt="Balcon Dallas Notavel">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/balcon-dallas-notavel.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/balcon-dallas-blanco-ambiente.jpg" class="card-img-top"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal14" alt="Balcon Dallas Notavel">
                             <div class="card-body">
-                                <h5 class="card-title">Estante Re Practico 7</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
+                                <h5 class="card-title">BALCON DALLAS NOTAVEL BLANCO</h5>
+                                <p class="card-text">Patas plásticas. Corredizas metálicas. Ideal para microondas.</p>
+                                <a href="../paginas/balcon-dallas-notavel.html" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/balcon-dallas-notavel.html" class="btn btn-secondary">Más
+                                    opciones</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b63">
+                            <!--MODAL 15-->
+                            <div class="modal fade" id="exampleModal15" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">BALCÓN FRUTERA BALLI
+                                                    NOTAVEL BLANCO</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid" src="../img/cocina/balcon-balli-ambiente.jpg"
+                                                    alt="Balcon Balli">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/balcon-balli-notavel.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/balcon-balli-ambiente.jpg" class="card-img-top"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal15" alt="Balcon Balli">
                             <div class="card-body">
-                                <h5 class="card-title">Estante Re Práctico 8</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
+                                <h5 class="card-title">BALCÓN FRUTERA BALLI NOTAVEL BLANCO</h5>
+                                <p class="card-text">Espacio para horno o microondas. Tirador cromado. 2 fruteras de
+                                    metal. Patas de plástico.</p>
+                                <a href="../paginas/balcon-balli-notavel.html" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/balcon-balli-notavel.html" class="btn btn-secondary">Más
+                                    opciones</a>
                             </div>
                         </div>
                     </div>
                 </article>
 
-                <h4 id="list-item-4">Mesas de Centro</h4>
+                <h4 id="list-item-4">Fruteras</h4>
                 <article class="row">
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aracaju">
+                            <!--MODAL 16-->
+                            <div class="modal fade" id="exampleModal16" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">BALCÓN FRUTERA BELIZE NEW
+                                                    NOTÁVEL BLANCO</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid"
+                                                    src="../img/cocina/frutera-belize-notavel-ambientado-blanco-abba-muebles.jpg"
+                                                    alt="Balcon Frutera Belize Blano">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/balcon-frutera-belize-blanco.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/frutera-belize-notavel-ambientado-blanco-abba-muebles.jpg"
+                                class="card-img-top" data-bs-toggle="modal" data-bs-target="#exampleModal16"
+                                alt="Balcon Frutera Belize Blano">
                             <div class="card-body">
-                                <h5 class="card-title">Mesa de Centro Hermosa</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
+                                <h5 class="card-title">BALCÓN FRUTERA BELIZE NEW NOTÁVEL BLANCO</h5>
+                                <p class="card-text">Espacio para horno o microondas. Tiradores cromados. 1 cajón con
+                                    corredizas metálicas. 2 fruteras de metal. Fruteras con rieles de plástico. Patas de
+                                    plástico.</p>
+                                <a href="../paginas/balcon-frutera-belize-blanco.html"
+                                    class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/balcon-frutera-belize-blanco.html" class="btn btn-secondary">Más
+                                    opciones</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aatcama">
+                            <!--MODAL 17-->
+                            <div class="modal fade" id="exampleModal17" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">BALCÓN FRUTERA DIVA NEW
+                                                    NOTAVEL BLANCO</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid"
+                                                    src="../img/cocina/frutera-diva-notavel-ambientado-blanco-champagne-abba-muebles.jpg"
+                                                    alt="Balcon Frutera Belize Blano">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/balcon-frutera-belize-blanco.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/frutera-diva-notavel-ambientado-blanco-champagne-abba-muebles.jpg"
+                                class="card-img-top" data-bs-toggle="modal" data-bs-target="#exampleModal17"
+                                alt="Balcon Frutera Belize Blano">
                             <div class="card-body">
-                                <h5 class="card-title">Mesa de Centro Hermosa</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
+                                <h5 class="card-title">BALCÓN FRUTERA DIVA NEW NOTAVEL BLANCO</h5>
+                                <p class="card-text">Espacio para horno o microondas. Tiradores cromados. 1 cajón con
+                                    corredizas metálicas. 2 fruteras de metal. Fruteras con rieles de plástico. Patas de
+                                    plástico. Espacio para bebedero.</p>
+                                <a href="../paginas/balcon-frutera-belize-blanco.html"
+                                    class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/balcon-frutera-belize-blanco.html" class="btn btn-secondary">Más
+                                    opciones</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b20">
+                            <!--MODAL 18-->
+                            <div class="modal fade" id="exampleModal18" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">FRUTERA ACACIA DACHERI
+                                                    BLANCO</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid"
+                                                    src="../img/cocina/Frutera-Acacia-Dacheri-Blanco-Ambiente-Abba-Muebles.jpg"
+                                                    alt="FRUTERA ACACIA DACHERI BLANCO">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/frutera-acacia-dacheri-blanco.html">Más
+                                                    detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/Frutera-Acacia-Dacheri-Blanco-Ambiente-Abba-Muebles.jpg"
+                                class="card-img-top" data-bs-toggle="modal" data-bs-target="#exampleModal18"
+                                alt="FRUTERA ACACIA DACHERI BLANCO">
                             <div class="card-body">
-                                <h5 class="card-title">Mesa de Centro "Saca los pies de ahí carajo"</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
+                                <h5 class="card-title">FRUTERA ACACIA DACHERI BLANCO</h5>
+                                <p class="card-text">3 fruteras de metal. Fruteras con rieles de plástico. Tiradores
+                                    cromados. 1 cajón con corredizas metálicas. Patitas de plástico.</p>
+                                <a href="../paginas/frutera-acacia-dacheri-blanco.html"
+                                    class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/frutera-acacia-dacheri-blanco.html" class="btn btn-secondary">Más
+                                    opciones</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b63">
+                            <!--MODAL 19-->
+                            <div class="modal fade" id="exampleModal19" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">FRUTERA AGATA NEW NOTÁVEL
+                                                    BLANCO</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid"
+                                                    src="../img/cocina/frutera-agata-blanco-ambiente.jpg"
+                                                    alt="FRUTERA AGATA NEW NOTÁVEL BLANCO">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/frutuera-agata-new-notavel-blanco.html">Más
+                                                    detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/frutera-agata-blanco-ambiente.jpg" class="card-img-top"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal19"
+                                alt="FRUTERA AGATA NEW NOTÁVEL BLANCO">
                             <div class="card-body">
-                                <h5 class="card-title">Mesa de Centro "Picada con Amigos" Titulo Largo para observar
-                                    comportamiento de la card</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
+                                <h5 class="card-title">FRUTERA AGATA NEW NOTÁVEL BLANCO</h5>
+                                <p class="card-text">Espacio para bebedero. Tirador cromado. 2 fruteras de metal.
+                                    Fruteras con rieles de plástico. Patas de plástico.</p>
+                                <a href="../paginas/frutuera-agata-new-notavel-blanco.html"
+                                    class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/frutuera-agata-new-notavel-blanco.html"
+                                    class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
                 </article>
 
-
+                <h4 id="list-item-5">Modulados</h4>
                 <article class="row">
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aracaju">
+                            <!--MODAL 20-->
+                            <div class="modal fade" id="exampleModal20" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">AEREO HELADERA 800 1P
+                                                    BASCULANTE VICENZA VISAO DAKAR|BLANCO</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid" src="../img/cocina/balcon-800-dakar-2.jpg"
+                                                    alt="AEREO HELADERA 800 1P BASCULANTE VICENZA VISAO DAKAR|BLANCO">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/aereo-heladera-800-1p-basculante-vicenza.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/balcon-800-dakar-2.jpg" class="card-img-top" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal20"
+                                alt="AEREO HELADERA 800 1P BASCULANTE VICENZA VISAO DAKAR|BLANCO">
                             <div class="card-body">
-                                <h5 class="card-title">Ropero Aracaju</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
+                                <h5 class="card-title">AEREO HELADERA 800 1P BASCULANTE VICENZA VISAO DAKAR|BLANCO</h5>
+                                <p class="card-text">1 puerta basculante con pistón. Tiradores en ABS. Pintura
+                                    texturizada.</p>
+                                <a href="../paginas/aereo-heladera-800-1p-basculante-vicenza.html"
+                                    class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/aereo-heladera-800-1p-basculante-vicenza.html"
+                                    class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aatcama">
+                            <!--MODAL 21-->
+                            <div class="modal fade" id="exampleModal21" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">AEREO VICENZA 1200 VISAO DAKAR|BLANCO</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid" src="../img/cocina/aereo-1200-dakar-blanco.jpg" alt="AEREO VICENZA 1200 VISAO DAKAR|BLANCO">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/aereo-vicenza-1200-visao.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/aereo-1200-dakar-blanco.jpg" class="card-img-top"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal21" alt="AEREO VICENZA 1200 VISAO DAKAR|BLANCO">
                             <div class="card-body">
-                                <h5 class="card-title">Ropero Atacama</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
+                                <h5 class="card-title">AEREO VICENZA 1200 VISAO DAKAR|BLANCO</h5>
+                                <p class="card-text">3 puertas. 1 repisa interna. Pintura UV. Producida en MDP 15mm. Tiradores en ABS.</p>
+                                <a href="../paginas/aereo-vicenza-1200-visao.html" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/aereo-vicenza-1200-visao.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b20">
+                            <!--MODAL 22-->
+                            <div class="modal fade" id="exampleModal22" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">ALACENA 400 2614 VIV KITS PARANA FRESNO|OXI</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid" src="../img/cocina/alacena-400-2614-viv-kits-parana-fresno-oxi-abba-muebles.jpg" alt="ALACENA 400 2614 VIV KITS PARANA FRESNO|OXI">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/alacena-400-2614.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/alacena-400-2614-viv-kits-parana-fresno-oxi-abba-muebles.jpg" class="card-img-top"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal22" alt="ALACENA 400 2614 VIV KITS PARANA FRESNO|OXI">
                             <div class="card-body">
-                                <h5 class="card-title">Ropero B 20</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
+                                <h5 class="card-title">ALACENA 400 2614 VIV KITS PARANA FRESNO|OXI</h5>
+                                <p class="card-text">Tiradores de metal. Bisagras metálicas de 35mm. Patas de plástico con altura regulable.</p>
+                                <a href="../paginas/alacena-400-2614.html" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/alacena-400-2614.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b63">
+                            <!--MODAL 23-->
+                            <div class="modal fade" id="exampleModal23" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">ALACENA 800 CRISTALERA 2 PUERTAS 2609 VIV KITS PARANA FRESNO|OXI</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid" src="../img/cocina/ALACENA-800-CRISTALERA-2-PUERTAS-2609-VIV-KITS-PARANA-FRESNO_OXI.png" alt="ALACENA 800 CRISTALERA 2 PUERTAS 2609 VIV KITS PARANA FRESNO|OXI">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/alacena-800-cristalera-2puertas-2609.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/ALACENA-800-CRISTALERA-2-PUERTAS-2609-VIV-KITS-PARANA-FRESNO_OXI.png" class="card-img-top"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal23" alt="ALACENA 800 CRISTALERA 2 PUERTAS 2609 VIV KITS PARANA FRESNO|OXI">
                             <div class="card-body">
-                                <h5 class="card-title">Ropero B 63</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
+                                <h5 class="card-title">ALACENA 800 CRISTALERA 2 PUERTAS 2609 VIV KITS PARANA FRESNO|OXI</h5>
+                                <p class="card-text">Vidrio reflecta de 4mm. Tiradores de metal. Bisagras metálicas de 35mm. Patas de plástico con altura regulable.</p>
+                                <a href="../paginas/alacena-800-cristalera-2puertas-2609.html" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/alacena-800-cristalera-2puertas-2609.html" class="btn btn-secondary">Más opciones</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <!--MODAL 24-->
+                            <div class="modal fade" id="exampleModal24" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">ALACENA 800 DUPLO HORNO C/NICHO 2610 VIV KITS PARANA FRESNO|OXI</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid" src="../img/cocina/alacena-800-duplo-horno-con-nicho-2610-viv-kits-parana-fresno-oxi-abba-muebles.jpg" alt="ALACENA 800 DUPLO HORNO C/NICHO 2610 VIV KITS PARANA FRESNO|OXI">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/alacena-800-duplo-horno-2610.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/alacena-800-duplo-horno-con-nicho-2610-viv-kits-parana-fresno-oxi-abba-muebles.jpg" class="card-img-top"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal24" alt="ALACENA 800 DUPLO HORNO C/NICHO 2610 VIV KITS PARANA FRESNO|OXI">
+                            <div class="card-body">
+                                <h5 class="card-title">ALACENA 800 DUPLO HORNO C/NICHO 2610 VIV KITS PARANA FRESNO|OXI</h5>
+                                <p class="card-text">Puerta superior basculante. Tiradores de metal. Bisagras metálicas de 35mm. Patas de plástico con altura regulable.</p>
+                                <a href="../paginas/alacena-800-duplo-horno-2610.html" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/alacena-800-duplo-horno-2610.html" class="btn btn-secondary">Más opciones</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <!--MODAL 25-->
+                            <div class="modal fade" id="exampleModal25" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">ALACENA VICENZA VISAO DAKAR</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid" src="../img/cocina/alacena-viccenza-1.jpg" alt="ALACENA VICENZA VISAO DAKAR">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/alacena-vicenza-visao-dakar.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/alacena-viccenza-1.jpg" class="card-img-top"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal25" alt="ALACENA VICENZA VISAO DAKAR">
+                            <div class="card-body">
+                                <h5 class="card-title">ALACENA VICENZA VISAO DAKAR</h5>
+                                <p class="card-text">3 Repisas internas. Patas altas. Pintura UV. Producida en MDP 15mm.</p>
+                                <a href="../paginas/alacena-vicenza-visao-dakar.html" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/alacena-vicenza-visao-dakar.html" class="btn btn-secondary">Más opciones</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <!--MODAL 26-->
+                            <div class="modal fade" id="exampleModal26" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">ARMARIO 1 PUERTA 400 2414 KITS PARANA CARTAGENA</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid" src="../img/cocina/armario-1p-400-2414-kits-parana-cartagena-1.png" alt="ARMARIO 1 PUERTA 400 2414 KITS PARANA CARTAGENA">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/armario-1puerta-400-2414-cartagena.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/armario-1p-400-2414-kits-parana-cartagena-1.png" class="card-img-top"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal26" alt="ARMARIO 1 PUERTA 400 2414 KITS PARANA CARTAGENA">
+                            <div class="card-body">
+                                <h5 class="card-title">ARMARIO 1 PUERTA 400 2414 KITS PARANA CARTAGENA</h5>
+                                <p class="card-text">Design moderno. Tiradores de aluminio. Pintura en relieve.</p>
+                                <a href="../paginas/armario-1puerta-400-2414-cartagena.html" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/armario-1puerta-400-2414-cartagena.html" class="btn btn-secondary">Más opciones</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <!--MODAL 27-->
+                            <div class="modal fade" id="exampleModal27" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">ARMARIO 1200 2 PUERTAS BASCULANTE 2605 VIV KITS PARANA FRESNO|OXI</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid" src="../img/cocina/armario-1200-2-puertas-basculante-2605-viv-kits-parana-abba-muebles.jpg" alt="ARMARIO 1200 2 PUERTAS BASCULANTE 2605 VIV KITS PARANA FRESNO|OXI">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/armario-1200-2puertas-basculante-2605.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/armario-1200-2-puertas-basculante-2605-viv-kits-parana-abba-muebles.jpg" class="card-img-top"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal27" alt="ARMARIO 1200 2 PUERTAS BASCULANTE 2605 VIV KITS PARANA FRESNO|OXI">
+                            <div class="card-body">
+                                <h5 class="card-title">ARMARIO 1200 2 PUERTAS BASCULANTE 2605 VIV KITS PARANA FRESNO|OXI</h5>
+                                <p class="card-text">Vidrio reflecta de 4mm. Tiradores de metal. Bisagras metálicas de 35mm.</p>
+                                <a href="../paginas/armario-1200-2puertas-basculante-2605.html" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/armario-1200-2puertas-basculante-2605.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
                 </article>
 
-                <h4 id="list-item-5">Racks</h4>
+                <h4 id="list-item-6">Piletas y Tampos</h4>
                 <article class="row">
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aracaju">
+                            <!--MODAL 28-->
+                            <div class="modal fade" id="exampleModal28" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">PILETA INOX 1200 GHELPLUS</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid" src="../img/cocina/pileta-inox-1200-ghelplus.jpg" alt="PILETA INOX 1200 GHELPLUS">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/pileta-inox-1200-ghelplus.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/pileta-inox-1200-ghelplus.jpg" class="card-img-top"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal28" alt="PILETA INOX 1200 GHELPLUS">
                             <div class="card-body">
-                                <h5 class="card-title">Ropero Aracaju</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
+                                <h5 class="card-title">PILETA INOX 1200 GHELPLUS</h5>
+                                <p class="card-text">Hecho de inox. Incluye valvula. Laterales con frisos escurridores.</p>
+                                <a href="../paginas/pileta-inox-1200-ghelplus.html" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/pileta-inox-1200-ghelplus.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aatcama">
+                            <!--MODAL 29-->
+                            <div class="modal fade" id="exampleModal29" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">TAMPO 1200 1165T FINESTRA IMBUIA</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid" src="../img/cocina/Tampo-1200-1165T.jpg" alt="TAMPO 1200 1165T FINESTRA IMBUIA">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/Tampo-1200-1165T.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/Tampo-1200-1165T.jpg" class="card-img-top"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal29" alt="TAMPO 1200 1165T FINESTRA IMBUIA">
                             <div class="card-body">
-                                <h5 class="card-title">Ropero Atacama</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
+                                <h5 class="card-title">TAMPO 1200 1165T FINESTRA IMBUIA</h5>
+                                <p class="card-text">Dimensiones 1.20 x 0.03 x 0.53mts.</p>
+                                <a href="../paginas/tampo-1200-1165T.html" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/tampo-1200-1165T.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b20">
+                            <!--MODAL 30-->
+                            <div class="modal fade" id="exampleModal30" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title" id="exampleModalLabel">TAMPO 1200 2092 KITS PARANA NERO</h6>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-fluid" src="../img/cocina/tampo-1200-2092-kits-parana-cartagena.png" alt="TAMPO 1200 2092 KITS PARANA NERO">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a type="button" class="btn btn-primary"
+                                                    href="../paginas/tampo-1200-2092.html">Más detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../img/cocina/tampo-1200-2092-kits-parana-cartagena.png" class="card-img-top"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal30" alt="TAMPO 1200 2092 KITS PARANA NERO">
                             <div class="card-body">
-                                <h5 class="card-title">Ropero B 20</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
+                                <h5 class="card-title">TAMPO 1200 2092 KITS PARANA NERO</h5>
+                                <p class="card-text">Dimensiones 1.20 x 0.03 x 0.53mts.</p>
+                                <a href="../paginas/tampo-1200-2092.html" class="btn btn-primary">Comprar</a>
+                                <a href="../paginas/tampo-1200-2092.html" class="btn btn-secondary">Más opciones</a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b63">
-                            <div class="card-body">
-                                <h5 class="card-title">Ropero B 63</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
                 </article>
-
-                <h4 id="list-item-6">Home Theater</h4>
-                <article class="row">
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aracaju">
-                            <div class="card-body">
-                                <h5 class="card-title">Ropero Aracaju</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aatcama">
-                            <div class="card-body">
-                                <h5 class="card-title">Ropero Atacama</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b20">
-                            <div class="card-body">
-                                <h5 class="card-title">Ropero B 20</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b63">
-                            <div class="card-body">
-                                <h5 class="card-title">Ropero B 63</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-
-                <h4 id="list-item-7">Paneles para Tv</h4>
-                <article class="row">
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aracaju">
-                            <div class="card-body">
-                                <h5 class="card-title">Ropero Aracaju</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aatcama">
-                            <div class="card-body">
-                                <h5 class="card-title">Ropero Atacama</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b20">
-                            <div class="card-body">
-                                <h5 class="card-title">Ropero B 20</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b63">
-                            <div class="card-body">
-                                <h5 class="card-title">Ropero B 63</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-
-                <h4 id="list-item-8">Complementos Sala</h4>
-                <article class="row">
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aracaju">
-                            <div class="card-body">
-                                <h5 class="card-title">Ropero Aracaju</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aatcama">
-                            <div class="card-body">
-                                <h5 class="card-title">Ropero Atacama</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b20">
-                            <div class="card-body">
-                                <h5 class="card-title">Ropero B 20</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b63">
-                            <div class="card-body">
-                                <h5 class="card-title">Ropero B 63</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-
-                <h4 id="list-item-9">Para Tv de 70"</h4>
-                <article class="row">
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aracaju">
-                            <div class="card-body">
-                                <h5 class="card-title">Para Tv ed 70"</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aatcama">
-                            <div class="card-body">
-                                <h5 class="card-title">Para Tv ed 70"</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b20">
-                            <div class="card-body">
-                                <h5 class="card-title">Para Tv ed 70"</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b63">
-                            <div class="card-body">
-                                <h5 class="card-title">Para Tv ed 70"</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-
-                <h4 id="list-item-10">Para Tv de 65"</h4>
-                <article class="row">
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aracaju">
-                            <div class="card-body">
-                                <h5 class="card-title">Para Tv de 65"</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aatcama">
-                            <div class="card-body">
-                                <h5 class="card-title">Para Tv de 65"</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b20">
-                            <div class="card-body">
-                                <h5 class="card-title">Para Tv de 65"</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b63">
-                            <div class="card-body">
-                                <h5 class="card-title">Para Tv de 65"</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-
-                <h4 id="list-item-11">Para Tv de 60"</h4>
-                <article class="row">
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aracaju">
-                            <div class="card-body">
-                                <h5 class="card-title">Para Tv de 60"</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aatcama">
-                            <div class="card-body">
-                                <h5 class="card-title">Para Tv de 60"</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b20">
-                            <div class="card-body">
-                                <h5 class="card-title">Para Tv de 60"</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b63">
-                            <div class="card-body">
-                                <h5 class="card-title">Para Tv de 60"</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-
-                <h4 id="list-item-12">Para Tv de 55"</h4>
-                <article class="row">
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aracaju">
-                            <div class="card-body">
-                                <h5 class="card-title">Para Tv de 55"</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aatcama">
-                            <div class="card-body">
-                                <h5 class="card-title">Para Tv de 55"</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b20">
-                            <div class="card-body">
-                                <h5 class="card-title">Para Tv de 55"</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b63">
-                            <div class="card-body">
-                                <h5 class="card-title">Para Tv de 55"</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-
-                <h4 id="list-item-13">Para Tv de 50"</h4>
-                <article class="row">
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aracaju">
-                            <div class="card-body">
-                                <h5 class="card-title">Para Tv de 50"</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="aatcama">
-                            <div class="card-body">
-                                <h5 class="card-title">Para Tv de 50"</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b20">
-                            <div class="card-body">
-                                <h5 class="card-title">Para Tv de 50"</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="b63">
-                            <div class="card-body">
-                                <h5 class="card-title">Para Tv de 50"</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="../paginas/dormitorio.html" class="btn btn-secondary">Más opciones</a>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-
         </section>
     </main>
 
