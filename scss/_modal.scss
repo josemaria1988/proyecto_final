@@ -98,6 +98,7 @@
   padding: $modal-header-padding;
   border-bottom: $modal-header-border-width solid $modal-header-border-color;
   @include border-top-radius($modal-content-inner-border-radius);
+  background: brown; //incluído por mi
 
   .btn-close {
     padding: ($modal-header-padding-y * .5) ($modal-header-padding-x * .5);
@@ -109,6 +110,7 @@
 .modal-title {
   margin-bottom: 0;
   line-height: $modal-title-line-height;
+  color: white; //incluído por mi
 }
 
 // Modal body

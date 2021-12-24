@@ -4227,14 +4227,16 @@ textarea.form-control-lg {
   padding: 1rem 1rem;
   border-bottom: 1px solid #dee2e6;
   border-top-left-radius: calc(0.3rem - 1px);
-  border-top-right-radius: calc(0.3rem - 1px); }
+  border-top-right-radius: calc(0.3rem - 1px);
+  background: brown; }
   .modal-header .btn-close {
     padding: 0.5rem 0.5rem;
     margin: -0.5rem -0.5rem -0.5rem auto; }
 
 .modal-title {
   margin-bottom: 0;
-  line-height: 1.5; }
+  line-height: 1.5;
+  color: white; }
 
 .modal-body {
   position: relative;
@@ -7900,7 +7902,7 @@ textarea.form-control-lg {
 
 /*---PAGINA CONTACTO---*/
 .form-contacto {
-  width: 350px;
+  width: 320px;
   margin: auto;
   background: rgba(0, 0, 0, 0.5);
   padding: 10px 20px;
