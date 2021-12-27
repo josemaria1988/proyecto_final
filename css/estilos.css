@@ -7960,3 +7960,16 @@ textarea.form-control-lg {
   .mainOfertas .imagen-carrusel {
     background-color: whitesmoke;
     max-width: 600px; }
+
+/*---Pagina Ayuda---*/
+.mainAyuda {
+  margin: 5%; }
+  .mainAyuda h1, .mainAyuda .h1 {
+    margin-bottom: 5%;
+    padding: 1%;
+    color: white;
+    background-color: brown; }
+  .mainAyuda .subtitulo-ayuda {
+    color: white;
+    background-color: #0d6efd;
+    padding: 1%; }
