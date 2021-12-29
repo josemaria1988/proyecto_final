@@ -7968,8 +7968,9 @@ textarea.form-control-lg {
     margin-bottom: 5%;
     padding: 1%;
     color: white;
-    background-color: brown; }
+    background-color: rgba(0, 0, 0, 0.5); }
   .mainAyuda .subtitulo-ayuda {
     color: white;
     background-color: #0d6efd;
-    padding: 1%; }
+    padding: 1%;
+    margin-top: 2%; }
