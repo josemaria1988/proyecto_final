@@ -7904,7 +7904,7 @@ textarea.form-control-lg {
 .form-contacto {
   width: 320px;
   margin: auto;
-  background: rgba(0, 0, 0, 0.5);
+  background: linear-gradient(#b31b1b, rgba(0, 0, 0, 0.5));
   padding: 10px 20px;
   box-sizing: border-box;
   margin-top: 20px;
@@ -7926,6 +7926,17 @@ textarea.form-control-lg {
     max-height: 300px;
     max-width: 100%; }
 
+@media (min-width: 980px) {
+  .mainContacto {
+    display: flex; } }
+
+.parrafo-contacto {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); }
+  .parrafo-contacto .texto-contacto {
+    color: white;
+    padding: 10px; }
+
 /*---PAGINA OFERTAS---*/
 .contenedorOfertas {
   width: 100%;
@@ -7935,7 +7946,7 @@ textarea.form-control-lg {
   text-align: center; }
   .contenedorOfertas .titulo-encima {
     position: absolute;
-    top: 30px;
+    top: 50%;
     left: 40%;
     color: whitesmoke;
     background: rgba(165, 42, 42, 0.8); }
@@ -7943,7 +7954,7 @@ textarea.form-control-lg {
     position: absolute;
     color: whitesmoke;
     background: rgba(0, 0, 0, 0.3);
-    bottom: 30px;
+    bottom: 50%;
     right: 10px;
     font-size: 21px; }
   .contenedorOfertas img {
@@ -7957,9 +7968,6 @@ textarea.form-control-lg {
   .mainOfertas h2, .mainOfertas .h2 {
     background: brown;
     color: white; }
-  .mainOfertas .imagen-carrusel {
-    background-color: whitesmoke;
-    max-width: 600px; }
 
 /*---Pagina Ayuda---*/
 .mainAyuda {
@@ -7974,3 +7982,8 @@ textarea.form-control-lg {
     background-color: #0d6efd;
     padding: 1%;
     margin-top: 2%; }
+
+/*---Pagina Index---*/
+.grid-index {
+  display: grid;
+  grid-template-columns: 100px 1fr; }
