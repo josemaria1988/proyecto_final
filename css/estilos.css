@@ -7984,6 +7984,52 @@ textarea.form-control-lg {
     margin-top: 2%; }
 
 /*---Pagina Index---*/
-.grid-index {
+.sectionCategorias {
   display: grid;
-  grid-template-columns: 100px 1fr; }
+  grid-template-columns: repeat(2, 3fr);
+  grid-gap: 10px;
+  align-items: center;
+  width: 100%; }
+  .sectionCategorias div {
+    width: 100%;
+    line-height: 500px;
+    position: relative; }
+    .sectionCategorias div h6, .sectionCategorias div .h6 {
+      text-align: center;
+      color: black;
+      font-size: 26px;
+      padding: 2%; }
+    .sectionCategorias div a {
+      text-decoration: none; }
+  .sectionCategorias .categoriasDiv1 {
+    background: linear-gradient(#0883ac, rgba(255, 255, 255, 0.2)); }
+    .sectionCategorias .categoriasDiv1 :hover {
+      background: rgba(8, 131, 172, 0.3); }
+  .sectionCategorias .categoriasDiv2 {
+    background: linear-gradient(#f66b58, rgba(255, 255, 255, 0.2)); }
+    .sectionCategorias .categoriasDiv2 :hover {
+      background: rgba(246, 108, 88, 0.3); }
+  .sectionCategorias .categoriasDiv3 {
+    background: linear-gradient(#57bc5c, rgba(255, 255, 255, 0.2)); }
+    .sectionCategorias .categoriasDiv3 :hover {
+      background: rgba(87, 188, 92, 0.3); }
+  .sectionCategorias .categoriasDiv4 {
+    background: linear-gradient(#903872, rgba(255, 255, 255, 0.2)); }
+    .sectionCategorias .categoriasDiv4 :hover {
+      background: rgba(144, 56, 114, 0.3); }
+  .sectionCategorias .categoriasDiv5 {
+    background: linear-gradient(#49c0b2, rgba(255, 255, 255, 0.2)); }
+    .sectionCategorias .categoriasDiv5 :hover {
+      background: rgba(73, 192, 178, 0.3); }
+  .sectionCategorias .categoriasDiv6 {
+    background: linear-gradient(#f4c366, rgba(255, 255, 255, 0.2)); }
+    .sectionCategorias .categoriasDiv6 :hover {
+      background: rgba(244, 195, 102, 0.3); }
+  .sectionCategorias .categoriasDiv7 {
+    background: linear-gradient(#726457, rgba(255, 255, 255, 0.2)); }
+    .sectionCategorias .categoriasDiv7 :hover {
+      background: rgba(144, 100, 87, 0.3); }
+  .sectionCategorias .categoriasDiv9 {
+    background: linear-gradient(#f45961, rgba(255, 255, 255, 0.2)); }
+    .sectionCategorias .categoriasDiv9 :hover {
+      background: rgba(244, 89, 97, 0.3); }

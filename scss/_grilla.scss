@@ -118,7 +118,72 @@
 
   /*---Pagina Index---*/
 
-  .grid-index {
-      display: grid;
-      grid-template-columns: 100px 1fr;
-  }
+  .sectionCategorias {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    grid-gap: 10px;
+    align-items: center;
+    width: 100%;
+    div {
+        width: 100%;
+        line-height: 500px;
+        position: relative;
+        h6 {
+            text-align: center;
+            color: black;
+            font-size: 26px;
+            padding: 2%;
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+    .categoriasDiv1 {
+        background: linear-gradient(rgba(8,131,172,1), rgba(255,255,255,0.2));
+        :hover {
+            background: rgba(8,131,172,0.3);
+        }
+    }
+    .categoriasDiv2 {
+        background: linear-gradient(rgba(246, 107, 88, 1), rgba(255,255,255,0.2));
+        :hover {
+            background: rgba(246,108,88,0.3);
+        }
+    }
+    .categoriasDiv3 {
+        background: linear-gradient(rgba(87, 188, 92, 1), rgba(255,255,255,0.2));
+        :hover {
+            background: rgba(87,188,92,0.3);
+        }
+    }
+    .categoriasDiv4 {
+        background: linear-gradient(rgba(144, 56, 114, 1), rgba(255,255,255,0.2));
+        :hover {
+            background: rgba(144,56,114,0.3);
+        }
+    }
+    .categoriasDiv5 {
+        background: linear-gradient(rgba(73, 192, 178, 1), rgba(255,255,255,0.2));
+        :hover{
+            background: rgba(73,192,178,0.3);
+        }
+    }
+    .categoriasDiv6 {
+        background: linear-gradient(rgba(244, 195, 102, 1), rgba(255,255,255,0.2));
+        :hover{
+            background: rgba(244,195,102,0.3);
+        }
+    }
+    .categoriasDiv7 {
+        background: linear-gradient(rgba(114, 100, 87, 1), rgba(255,255,255,0.2));
+        :hover {
+            background: rgba(144,100,87,0.3);
+        }
+    }
+    .categoriasDiv9 {
+        background:linear-gradient(rgba(244,89,97,1), rgba(255,255,255,0.2));
+        :hover {
+            background: rgba(244,89,97,0.3);
+        }
+    }
+}
