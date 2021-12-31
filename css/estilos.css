@@ -7986,13 +7986,12 @@ textarea.form-control-lg {
 /*---Pagina Index---*/
 .sectionCategorias {
   display: grid;
-  grid-template-columns: repeat(2, 3fr);
+  grid-template-columns: repeat(4, 3fr);
   grid-gap: 10px;
   align-items: center;
   width: 100%; }
   .sectionCategorias div {
-    width: 100%;
-    line-height: 500px;
+    width: 300px;
     position: relative; }
     .sectionCategorias div h6, .sectionCategorias div .h6 {
       text-align: center;
@@ -8033,3 +8032,8 @@ textarea.form-control-lg {
     background: linear-gradient(#f45961, rgba(255, 255, 255, 0.2)); }
     .sectionCategorias .categoriasDiv9 :hover {
       background: rgba(244, 89, 97, 0.3); }
+
+@media (max-width: 980px) {
+  .sectionCategorias {
+    display: flex;
+    flex-direction: column; } }

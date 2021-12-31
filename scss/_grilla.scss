@@ -120,13 +120,12 @@
 
   .sectionCategorias {
     display: grid;
-    grid-template-columns: repeat(2, 3fr);
+    grid-template-columns: repeat(4, 3fr);
     grid-gap: 10px;
     align-items: center;
     width: 100%;
     div {
-        width: 100%;
-        line-height: 500px;
+        width: 300px;
         position: relative;
         h6 {
             text-align: center;
@@ -185,5 +184,11 @@
         :hover {
             background: rgba(244,89,97,0.3);
         }
+    }
+}
+@media (max-width: 980px){
+    .sectionCategorias{
+        display: flex;
+        flex-direction: column;
     }
 }
