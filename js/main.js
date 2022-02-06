@@ -55,18 +55,18 @@ let arrayConjuntoAlvin = [{
 ]
 
 
-arrayConjuntoBalaDeMenta.forEach(verArray);
-console.log(arrayConjuntoBalaDeMenta);
-document.getElementById("mostrarUno").innerHTML = mostrarProductos;
+// arrayConjuntoBalaDeMenta.forEach(verArray);
+// console.log(arrayConjuntoBalaDeMenta);
+// document.getElementById("mostrarUno").innerHTML = mostrarProductos;
 
-mostrarProductos = "";
-arrayConjuntoAlvin.forEach(verArray);
-console.log(arrayConjuntoAlvin);
-document.getElementById("diferente").innerHTML = mostrarProductos;
+// mostrarProductos = "";
+// arrayConjuntoAlvin.forEach(verArray);
+// console.log(arrayConjuntoAlvin);
+// document.getElementById("diferente").innerHTML = mostrarProductos;
 
-function verArray(item, index) {
-    mostrarProductos += "<li>" + JSON.stringify(item) + JSON.stringify(index) + "</li>";
-}
+// function verArray(item, index) {
+//     mostrarProductos += "<li>" + JSON.stringify(item) + JSON.stringify(index) + "</li>";
+// }
 
 
 
