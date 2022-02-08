@@ -78,8 +78,6 @@ function verArray(item, index) {
     mostrarProductos += "<li>" + JSON.stringify(item) + JSON.stringify(index) + "</li>";
 }
 
-
-
 function verArray(item, index) {
     mostrarProductos += index + ": " + JSON.stringify(item) + "<br>";
 }
