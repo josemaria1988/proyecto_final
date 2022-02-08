@@ -1,5 +1,15 @@
 // Simulador de compra web
 
+function Usuario(nombre, apellido, email, tel) {
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.email = email;
+    this.tel = tel;
+  }
+
+  const user1 = new Usuario("José María", "Sosa", "josemaria@rontil.com", 099808301);
+  console.log(user1);
+
 //Variables Globales:
 let id = 0;
 let nombre = "";
@@ -54,7 +64,6 @@ let arrayConjuntoAlvin = [{
 }
 ]
 
-
 arrayConjuntoBalaDeMenta.forEach(verArray);
 console.log(arrayConjuntoBalaDeMenta);
 document.getElementById("mostrarUno").innerHTML = mostrarProductos;
@@ -80,67 +89,67 @@ cambiarProducto();
 
 function agregarCompra() {
     do {
-        producto = prompt("¿Querés comprar ropero, cuna o comoda?", "Ej: Ropero (1), Cuna (2), Comoda (3)");
+        producto = prompt("Hola " + user1.nombre + "¿Querés comprar ropero, cuna o comoda?", "Ej: Ropero (1), Cuna (2), Comoda (3)");
         modelo = parseInt(prompt("¿De que modelo? \n\n1- Bala de Menta \n 2- Alvin"));
         let cantidad = parseInt(prompt("¿Cuantos querés comprar?"));
 
-        if(modelo == 1) {
-        switch ("1") {
-            case "1":
-                precio = 762;
-                break;
-            case "2":
-                precio = 619;
-                break;
-            case "3":
-                precio = 558;
-                break;
+        if (modelo == 1) {
+            switch ("1") {
+                case "1":
+                    precio = 762;
+                    break;
+                case "2":
+                    precio = 619;
+                    break;
+                case "3":
+                    precio = 558;
+                    break;
 
-            default:
-                alert("Alguno de los datos ingresados es incorrecto");
-                precio = 0;
-                cantidad = 0;
+                default:
+                    alert("Alguno de los datos ingresados es incorrecto");
+                    precio = 0;
+                    cantidad = 0;
+            }
         }
-    }
-    if (modelo == 2){
-        switch ("2") {
-            case "1":
-                precio = 983;
-                break;
-            case "2":
-                precio = 852;
-                break;
-            case "3":
-                precio = 636;
-                break;
-            default:
-                alert("Alguno de los datos ingresados es incorrecto");
-                precio = 0;
-                cantidad = 0;
+        if (modelo == 2) {
+            switch ("2") {
+                case "1":
+                    precio = 983;
+                    break;
+                case "2":
+                    precio = 852;
+                    break;
+                case "3":
+                    precio = 636;
+                    break;
+                default:
+                    alert("Alguno de los datos ingresados es incorrecto");
+                    precio = 0;
+                    cantidad = 0;
+            }
         }
-    }
         total = total + precio * cantidad;
-        otroProducto = confirm("¿Querés agregar otro producto?");
+        otroProducto = confirm("Por último " + user1.nombre + " ¿Querés agregar otro producto?");
     } while (otroProducto);
 }
 
 function aplicarDescuento(total) {
     if (total >= 2000) {
         total = total * 0.85;
-        alert("Tu compra supera el mínimo para mayoristas, por lo que tenés un 15% de descuento.")
+        alert("Que bueno " + user1.nombre + " Tu compra supera el mínimo para mayoristas, por lo que tenés un 15% de descuento.")
     }
     return total;
 }
 
 function calcularEnvio(total) {
-    let confirmacion = confirm("¿Querés envío a domicilio?")
+    let confirmacion = confirm("¿Querés envío a domicilio " + user1.nombre + "?")
     if (confirmacion & total >= 1500) {
-        alert("Tenés envío gratis. El total de tu compra es: " + total);
+        alert("Tenés envío gratis. El total de tu compra es: " + total + " Muchas gracias " + user1.nombre);
     } else if (confirmacion && total < 1000 && total != 0) {
         total = total + 700;
-        alert("El costo de envío es $700. El total de tu compra es: " + total);
+        alert("El costo de envío es $700. El total de tu compra es: " + total + " Muchas gracias " + user1.nombre);
     } else {
-        alert("El total de tu compra es: " + total);
+        alert("El total de tu compra es: " + total + " Muchas gracias " + user1.nombre);
     }
     return total;
 }
@@ -166,12 +175,23 @@ function cambiarProducto() {
                 alert("No se encontró el producto indicado");
             }
 
-        }else if (respuesta == 2) {
-            alert("Ha seleccionado no cambiar ningún producto.");
+        } else if (respuesta == 2) {
+            alert("Ha seleccionado no cambiar ningún producto. Muchas gracias " + user1.nombre + " Que vuelva pronto!");
             preguntar = false;
         } else {
             alert("Ha seleccionado una opción no válida. Introduzca (1) si desea cambiar un producto, o introduzca (2) en caso contrario.");
             respuesta = parseInt(prompt("Desea cambiar un producto? \n\n1- Si \n2- No."));
         }
     }
+}
+
+// Ingreso de Usuario:
+
+function handler() {
+    let user = "josemaria@rontil.com";
+    let pass = 1234;
+
+    if (document.form.pass.value == pass && document.form.user.value == user) {
+        alert(`Bienvenido José! que capo ya estás programandooo!!`)
+    } else (alert("Usuario o contraseña incorrecto"));
 }
