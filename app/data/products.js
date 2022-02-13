@@ -1,4 +1,4 @@
-const DORMITORIO = [
+const dormitorio = [
     {
         id: 1,
         nombre: "9116B 1.60",
@@ -6,6 +6,7 @@ const DORMITORIO = [
         precio: 725000,
         img: '../img/dormitorio/Cabecera-160-Topazio-9116B.jpg',
         descrip: "Cabecera 9116B de 1.60 mts de largo",
+        cantidad: 1,
     },
     {
         id: 2,
@@ -14,6 +15,7 @@ const DORMITORIO = [
         precio: 437000,
         img: '../img/dormitorio/cabecera-acapulco-ja-itauba-ambiente.jpg',
         descrip: "Cabecera Acapulco de 1.60 mts de largo en color Itaúba",
+        cantidad: 1,
     },
     {
         id: 3,
@@ -22,6 +24,7 @@ const DORMITORIO = [
         precio: 437000,
         img: '../img/dormitorio/cabecera-acapulco-ja-jequitiba-ambiente.jpg',
         descrip: "Cabecera Acapulco de 1.60 mts de largo en color Jequitiba",
+        cantidad: 1,
     },
     {
         id: 4,
@@ -30,6 +33,7 @@ const DORMITORIO = [
         precio: 630000,
         img: '../img/dormitorio/cabecera-baul-jade-140-ja-off-white-ambiente.jpg',
         descrip: "Cabecera Jade de 1.40 mts de largo en color Avellana Wood",
+        cantidad: 1,
     },
     {
         id: 5,
@@ -38,6 +42,7 @@ const DORMITORIO = [
         precio: 630000,
         img: '../img/dormitorio/cabecera-acapulco-ja-itauba-ambiente',
         descrip: "Cabecera Jade de 1.40 mts de largo en color Itaúba",
+        cantidad: 1,
     },
     {
         id: 6,
@@ -46,6 +51,7 @@ const DORMITORIO = [
         precio: 630000,
         img: '../img/dormitorio/cabecera-acapulco-ja-jequitiba-ambiente',
         descrip: "Cabecera Jade de 1.40 mts de largo en color Jequitiba",
+        cantidad: 1,
     },
     {
         id: 7,
@@ -54,6 +60,7 @@ const DORMITORIO = [
         precio: 63000,
         img: '../img/dormitorio/cabecera-baul-jade-140-ja-off-white-ambiente',
         descrip: "Cabecera Jade de 1.40 mts de largo en color Off White",
+        cantidad: 1,
     },
     {
         id: 8,
@@ -62,7 +69,8 @@ const DORMITORIO = [
         precio: 571000,
         img: "../img/dormitorio/cabecera-calenda-henn-off-white-ambiente",
         descrip: "Cabecera Calenda Henn de 1.60 mts de largo en color Off White",
+        cantidad: 1,
     },
 ]
 
-export { DORMITORIO };
+export { dormitorio };

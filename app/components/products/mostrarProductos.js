@@ -1,13 +1,13 @@
-// import agregarAlCarrito from '../cart/agregarAlCarrito.js';
+import agregarAlCarrito from "../cart/agregarAlCarrito.js";
 
 const contenedorProductos = document.getElementById('contenedor-productos');
 
-export default function mostrarProductos(DORMITORIO) {
+ export default function mostrarProductos(array) {
 
-    DORMITORIO.forEach(producto => {
-        let div = document.createElement('div');
-        div.classList.add('producto');
-        div.innerHTML += `<div class="card" style="width: 18rem;">
+  array.forEach(producto => {
+    let div = document.createElement('div');
+    div.classList.add('producto');
+    div.innerHTML +=`<div class="card" style="width: 18rem;">
                                 
         <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
