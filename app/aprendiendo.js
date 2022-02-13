@@ -14,6 +14,7 @@ btnAumentar.addEventListener('click', () => {
     contadorAumentar++
     span.textContent = contador;
     mensaje.textContent = `Aumentaste ${contadorAumentar} veces el contador y aumentaste el contador a ${contador}.`
+    mensajeBorron.textContent = "";
 });
 
 const btnDisminuir = document.querySelector('.btn-danger');
@@ -25,6 +26,7 @@ btnDisminuir.addEventListener('click', () => {
     contadorDisminuir++
     span.textContent = contador;
     mensaje.textContent = `Disminuíste ${contadorDisminuir} veces el contador y redujiste el contador a ${contador}`;
+    mensajeBorron.textContent = "";
 });
 
 mensaje.textContent = "";
