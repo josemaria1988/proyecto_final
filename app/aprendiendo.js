@@ -1,17 +1,27 @@
 const btnAumentar = document.querySelector('.btn-primary');
 const span = document.getElementById('span1');
+const mensaje = document.getElementById('span2')
+
 let contador=0;
+let contadorAumentar=0;
+let contadorDisminuir=0;
 
 btnAumentar.addEventListener('click', () => {
     console.log("me diste click aumentar")
     contador++
+    contadorAumentar++
     span.textContent = contador;
+    mensaje.textContent = `Aumentaste ${contadorAumentar} veces el contador y aumentaste el contador a ${contador}.`
 });
 
 const btnDisminuir = document.querySelector('.btn-danger');
 
+mensaje.textContent = "";
 btnDisminuir.addEventListener('click', () => {
     console.log("diste click en disminuir")
     contador--
+    contadorDisminuir++
     span.textContent = contador;
+    mensaje.textContent = `Disminuíste ${contadorDisminuir} veces el contador y redujiste el contador a ${contador}`;
 })
+
