@@ -2,7 +2,7 @@ import agregarAlCarrito from "../cart/agregarAlCarrito.js";
 
 const contenedorProductos = document.getElementById('cardDormitorio');
 
-export default function mostrarProductos() {
+export default function mostrarProductos(array) {
 
     array.forEach (producto => {
         let div = document.createElement('div');
