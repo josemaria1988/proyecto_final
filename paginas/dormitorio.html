@@ -131,13 +131,12 @@
                         aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                    <div class="carrito-contenedor">
                         <h4 class="d-flex justify-content-between align-items-center mb-3">
                             <span class="text-primary">Carrito</span>
-                            <span class="badge bg-primary rounded-pill contadorCarrito"></span>
+                            <span class="badge bg-primary rounded-pill contadorCarrito">0</span>
                         </h4>
-                        <ul class="list-group mb-3">
-                            <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <ul class="list-group mb-3 carrito-contenedor">
+                            <!-- <li class="list-group-item d-flex justify-content-between lh-sm">
                                 <div>
                                     <h6 class="my-0">Producto 1</h6>
                                     <small class="text-muted">Breve descripción</small>
@@ -168,7 +167,7 @@
                             <li class="list-group-item d-flex justify-content-between">
                                 <span>Total (USD)</span>
                                 <strong>$245</strong>
-                            </li>
+                            </li> -->
                         </ul>
 
                         <form class="card p-2">
@@ -178,7 +177,6 @@
                             </div>
                             <button type="submit" class="btn btn-primary mt-3">Confirmar</button>
                         </form>
-                    </div>
                 </div>
             </div>
     </header>
@@ -237,95 +235,15 @@
         <!--CONTENIDO-->
 
         <section class="section__contenidoDormitorio">
-            <section class="section__contenidoDormitorio">
-                <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example"
-                    tabindex="0">
-                    <h4 id="list-item-1">Cabeceras</h4>
-                    <article class="row">
-                        <div class="col shadow-lg p-3 mb-5 bg-body rounded" id="contenedor-productos"></div>
-                        <!--ITEM 1-->
-                        <!-- <div class="col shadow-lg p-3 mb-5 bg-body rounded"> -->
-                            <!--<div class="card" style="width: 18rem;">
-                                
-                                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                    aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-dialog modal-dialog-centered">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h6 class="modal-title" id="exampleModalLabel">CONJUNTO CÓRDOBA 8 SILLAS
-                                                        CALIFORNIA FABONE BLANCO CRAQUELADO|MEZCLADO PETROLEO</h6>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                        aria-label="Close"></button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <img class="img-fluid"
-                                                        src="../img/comedor/conjunto-cordoba-8-sillas-california-fabone-ambiente-abba-muebles.jpg"
-                                                        alt="CONJUNTO CÓRDOBA 8 SILLAS CALIFORNIA FABONE BLANCO CRAQUELADO|MEZCLADO PETROLEO">
-                                                    <p class="card-text">
-                                                    <ul>
-                                                        <li>Conjunto comedor con 8 sillas.</li>
-                                                        <li>Estructura de metal.</li>
-                                                        <li>Tampo de granito.</li>
-                                                    </ul>
-                                                    <strong>Precio Contado Gs. 2.603.000</strong>
-                                                    </p>
-                                                </div>
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary"
-                                                        data-bs-dismiss="modal">Cerrar</button>
-                                                    <a type="button" class="btn btn-primary" href="#">Comprar</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <img src="../img/comedor/conjunto-cordoba-8-sillas-california-fabone-ambiente-abba-muebles.jpg"
-                                    class="card-img-top" data-bs-toggle="modal" data-bs-target="#exampleModal1"
-                                    alt="CONJUNTO CÓRDOBA 8 SILLAS CALIFORNIA FABONE BLANCO CRAQUELADO|MEZCLADO PETROLEO">
-                                <div class="card-body">
-                                    <h5 class="card-title">Contado Gs. 2.603.000</h5>
-    
-                                    <a href="#" class="btn btn-primary">Comprar</a> -->
-    
-                                    <!--FORMULARIO CONSULTA DE PRODUCTO-->
-                                    <!-- <button data-bs-toggle="modal" data-bs-target="#consultaModal1"
-                                        class="btn btn-secondary">Realizar consulta</button>
-    
-                                    <div class="modal fade" id="consultaModal1" tabindex="-1"
-                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-dialog modal-dialog-centered">
-                                                <div class="modal-content">
-                                                    <div class="modal-header">
-                                                        <h6 class="modal-title" id="exampleModalLabel">CONJUNTO CÓRDOBA 8
-                                                            SILLAS CALIFORNIA FABONE BLANCO CRAQUELADO|MEZCLADO PETROLEO
-                                                        </h6>
-                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                            aria-label="Close"></button>
-                                                    </div>
-                                                    <div class="modal-body">
-                                                        <form class="form-contacto">
-                                                            <h6>Su consulta sobre este producto</h6>
-                                                            <input type="text" name="Nombre" placeholder="Nombre">
-                                                            <input type="text" name="email" placeholder="Correo">
-                                                            <input type="text" name="telefono" placeholder="Teléfono">
-                                                            <textarea name="mensaje"
-                                                                placeholder="Escriba aquí su mensaje"></textarea>
-                                                            <input type="button" value="ENVIAR">
-                                                        </form>
-                                                    </div>
-                                                    <div class="modal-footer">
-                                                        <button type="button" class="btn btn-danger"
-                                                            data-bs-dismiss="modal">Cerrar</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
+            <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example"
+                tabindex="0">
+                <h4 id="list-item-1">Cabeceras</h4>
+                <article class="row">
+                    <!--ITEM 18-->
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card" style="width: 18rem;">
+                            <div id="cardDormitorio"></div>
+                </article>
         </section>
     </main>
 
@@ -365,10 +283,11 @@
     <script src="../app/data/products.js" type="module"></script>
     <script src="../app/components/modal/modal.js" type="module"></script>
     <script src="../app/App.js" type="module"></script>
-    <script src="../app/index.js" type="module"></script>
     <script src="../app/components/cart/actualizarCarrito.js" type="module"></script>
     <script src="../app/components/cart/agregarAlCarrito.js" type="module"></script>
-    <script src="../app/components/products/mostrarProductos.js"></script>
+    <script src="../app/index.js" type="module"></script>
+    <script src="../app/components/products/mostrarProductos.js" type="module"></script>
+    
 </body>
 
 </html>
