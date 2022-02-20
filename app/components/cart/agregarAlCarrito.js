@@ -2,29 +2,34 @@ import actualizarCarrito from "./actualizarCarrito.js";
 import { dormitorio } from "../../data/products.js";
 
 let carritoDeCompras = []
-const contenedorCarrito = document.getElementById('carrito-contenedor');
+const carritoContenedor = document.getElementById('carrito-contenedor');
 
 export default function agregarAlCarrito(id) {
 
   let repetido = carritoDeCompras.find(productoR => productoR.id == id);
   if (repetido) {
     repetido.cantidad = repetido.cantidad + 1;
-    document.getElementById(`cantidad${repetido.id}`).innerHTML = `<p id=cantidad${repetido.id}>Cantidad:${repetido.cantidad}</p>`;
+    document.getElementById(`cantidad${repetido.id}`).innerHTML = `<p id="cantidad${repetido.id}">Cantidad:${repetido.cantidad}</p>`;
     actualizarCarrito(carritoDeCompras);
   } else {
-    let producto = dormitorio.find(prod => prod.id == id);
+    let producto = dormitorio.find(producto => producto.id == id);
     carritoDeCompras.push(producto);
     console.log(carritoDeCompras);
 
     producto.cantidad = 1;
-    let div = document.createElement('div');
-    div.classList.add('productoEnCarrito');
-    div.innerHTML += `<p>${producto.nombre}</p>
-                    <p>Precio:${producto.precio}</p>
-                    <p id=cantidad${producto.id}>Cantidad:${producto.cantidad}</p>
-                    <button id=eliminar${producto.id} class="boton-eliminar"><i class="fas fa-trash-alt"></i></button>`;
+    let article = document.createElement('article');
+    article.innerHTML += `
+                    <ul class="list-group mb-3">
+                      <li class="list-group-item d-flex justify-content-between lh-sm">
+                                  <div class="row rounded">
+                                    <h6 class="my-0">${producto.nombre}</h6>
+                                    <small class="text-muted">${producto.descrip}</small>
+                                  </div>
+                                <span class="text-bold">${producto.precio}</span>
+                      </li>
+                      <button id="eliminar${producto.id}" class="btn-danger">Quitar</button>`;
 
-    contenedorCarrito.appendChild(div);
+    carritoContenedor.appendChild(article);
 
     actualizarCarrito(carritoDeCompras);
 
