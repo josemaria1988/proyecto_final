@@ -1,8 +1,42 @@
+import actualizarCarrito from "../cart/actualizarCarrito.js";
 import agregarAlCarrito from "../cart/agregarAlCarrito.js";
 
+let carritoStorage = [];
 const cardDormitorio = document.getElementById('cardDormitorio');
+const carritoContenedor = document.getElementById('carrito-contenedor');
 
 export default function mostrarProductos(array) {
+
+    if (localStorage.getItem("carrito")) {
+        carritoStorage = JSON.parse(localStorage.getItem("carrito"));
+        carritoStorage.map((producto) => {
+            let article = document.createElement('article');
+            article.classList.add('container')
+            article.innerHTML += `
+                    <ul class="list-group mb-3">
+                      <li class="list-group-item d-flex justify-content-between lh-sm">
+                                  <div class="row rounded">
+                                  <img src=${producto.img} class="rounded float-start w-50">
+                                    <p class="my-0">${producto.nombre}</p>
+                                    <small class="text-muted">${producto.descrip}</small>
+                                  </div>
+                                <span class="text-bold">${producto.precio}</span>
+                      <button id="eliminar${producto.id}" class="btn-danger">Quitar</button>
+                      </li>`;
+
+            carritoContenedor.appendChild(article);
+            actualizarCarrito(carritoStorage);
+
+            let botonEliminar = document.getElementById(`eliminar${producto.id}`);
+
+            botonEliminar.addEventListener('click', () => {
+            botonEliminar.parentElement.remove();
+            carritoStorage = carritoStorage.filter(el => el.id != producto.id);
+            actualizarCarrito(carritoStorage);
+
+            });
+        });
+    };
 
     array.forEach (producto => {
         let div = document.createElement('div');

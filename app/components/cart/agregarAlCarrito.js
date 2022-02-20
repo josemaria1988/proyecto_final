@@ -1,14 +1,14 @@
 import actualizarCarrito from "./actualizarCarrito.js";
 import { dormitorio } from "../../data/products.js";
 
-let carritoDeCompras = []
+let carritoDeCompras = [];
 const carritoContenedor = document.getElementById('carrito-contenedor');
 
 export default function agregarAlCarrito(id) {
 
   let repetido = carritoDeCompras.find(productoR => productoR.id == id);
   if (repetido) {
-    repetido.cantidad = repetido.cantidad + 1;
+    repetido.cantidad++
     document.getElementById(`cantidad${repetido.id}`).innerHTML = `<p id="cantidad${repetido.id}">Cantidad:${repetido.cantidad}</p>`;
     actualizarCarrito(carritoDeCompras);
   } else {
@@ -18,6 +18,7 @@ export default function agregarAlCarrito(id) {
 
     producto.cantidad = 1;
     let article = document.createElement('article');
+    article.classList.add('container')
     article.innerHTML += `
                     <ul class="list-group mb-3">
                       <li class="list-group-item d-flex justify-content-between lh-sm">
@@ -31,7 +32,6 @@ export default function agregarAlCarrito(id) {
                       </li>`;
 
     carritoContenedor.appendChild(article);
-
     actualizarCarrito(carritoDeCompras);
 
     let botonEliminar = document.getElementById(`eliminar${producto.id}`);
@@ -40,6 +40,7 @@ export default function agregarAlCarrito(id) {
       botonEliminar.parentElement.remove();
       carritoDeCompras = carritoDeCompras.filter(el => el.id != producto.id);
       actualizarCarrito(carritoDeCompras);
+      carritoStorage(carritoDeCompras);
     });
   }
 }
