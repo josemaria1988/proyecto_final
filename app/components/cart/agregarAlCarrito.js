@@ -22,12 +22,13 @@ export default function agregarAlCarrito(id) {
                     <ul class="list-group mb-3">
                       <li class="list-group-item d-flex justify-content-between lh-sm">
                                   <div class="row rounded">
-                                    <h6 class="my-0">${producto.nombre}</h6>
+                                  <img src=${producto.img} class="rounded float-start w-50">
+                                    <p class="my-0">${producto.nombre}</p>
                                     <small class="text-muted">${producto.descrip}</small>
                                   </div>
                                 <span class="text-bold">${producto.precio}</span>
-                      </li>
-                      <button id="eliminar${producto.id}" class="btn-danger">Quitar</button>`;
+                      <button id="eliminar${producto.id}" class="btn-danger">Quitar</button>
+                      </li>`;
 
     carritoContenedor.appendChild(article);
 
