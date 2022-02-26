@@ -122,6 +122,7 @@ export default function mostrarProductos(array) {
         boton.addEventListener('click', () => {
             console.log(producto.id)
             agregarAlCarrito(producto.id);
+            localStorage.setItem("carrito", JSON.stringify(producto));
         });
 
     });
