@@ -5,6 +5,13 @@ let carritoDeCompras = [];
 export {carritoDeCompras};
 const carritoContenedor = document.getElementById('carrito-contenedor');
 
+document.addEventListener("DOMContentLoaded", (e) => {
+  if (localStorage.getItem("carrito")) {
+    carritoDeCompras = JSON.parse(localStorage.getItem("carrito"))
+    actualizarCarrito(carritoDeCompras);
+  }
+})
+
 export default function agregarAlCarrito(id) {
 
     let producto = dormitorio.find(producto => producto.id == id);
