@@ -9,7 +9,6 @@ export default function agregarAlCarrito(id) {
 
     let producto = dormitorio.find(producto => producto.id == id);
     carritoDeCompras.push(producto);
-    console.log(carritoDeCompras); //borrar al terminar de arreglar..
 
     producto.cantidad = 1;
     let article = document.createElement('article');
@@ -28,6 +27,7 @@ export default function agregarAlCarrito(id) {
 
     carritoContenedor.appendChild(article);
     actualizarCarrito(carritoDeCompras);
+    localStorage.setItem("carrito", JSON.stringify(carritoDeCompras));
 
     let botonEliminar = document.getElementById(`eliminar${producto.id}`);
     botonEliminar.addEventListener('click', () => {
