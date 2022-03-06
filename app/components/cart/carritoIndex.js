@@ -3,18 +3,24 @@ import { dormitorio } from "../../data/products.js";
 
 let carritoDeCompras = [];
 export {carritoDeCompras};
-const carritoContenedor = document.getElementById('carrito-contenedor');
 
-document.addEventListener("DOMContentLoaded", (e) => {
-  if (localStorage.getItem("carrito")) {
-    carritoDeCompras = JSON.parse(localStorage.getItem("carrito"))
-    actualizarCarrito(carritoDeCompras);
+export default function carritoIndex(productoId) {
+
+  const carritoContenedor = document.getElementById('carrito-contenedor');
+  let productoRepetido = carritoDeCompras.find(producto => producto.id == productoId);
+
+  const contarProductosRepetidos = (productoRepetido) => {
+    if (repetido) {
+      productoRepetido.cantidad++
+      document.getElementById(`cantidad${productoRepetido.id}`).innerHTML = `<p id=cantidad${productoRepetido.id}>Cantidad:${productoRepetido.cantidad}</p> `;
+      actualizarCarrito(carritoDeCompras);
+    }else{
+      mostrarCarrito(productoId);
+    }
   }
-})
 
-export default function agregarAlCarrito(id) {
-
-    let producto = dormitorio.find(producto => producto.id == id);
+  const mostrarCarrito = (productoId) => {
+    let producto = dormitorio.find(producto => producto.id == productoId);
     carritoDeCompras.push(producto);
 
     producto.cantidad = 1;
@@ -29,14 +35,16 @@ export default function agregarAlCarrito(id) {
                                     <small class="text-muted">${producto.descrip}</small>
                                   </div>
                                 <span class="text-bold">${producto.precio}</span>
-                      <button id="eliminar${producto.id}" class="btn-danger">Quitar</button>
+                      <button id="eliminar${productoId}" class="btn-danger">Quitar</button>
                       </li>`;
 
     carritoContenedor.appendChild(article);
     actualizarCarrito(carritoDeCompras);
     localStorage.setItem("carrito", JSON.stringify(carritoDeCompras));
-
-    let botonEliminar = document.getElementById(`eliminar${producto.id}`);
+  }
+  
+  const eliminarProductoCarrito = (productoId) => {
+    let botonEliminar = document.getElementById(`eliminar${productoId}`);
     botonEliminar.addEventListener('click', () => {
       Toastify({
         text: "Producto Eliminado",
@@ -46,7 +54,10 @@ export default function agregarAlCarrito(id) {
         }
       }).showToast();
         botonEliminar.parentElement.remove();
-        carritoDeCompras = carritoDeCompras.filter(el => el.id != producto.id);
+        carritoDeCompras = carritoDeCompras.filter(el => el.id != productoId);
         actualizarCarrito(carritoDeCompras);
       });
-    }
+  }
+  contarProductosRepetidos(productoRepetido);
+  eliminarProductoCarrito(productoId);
+}

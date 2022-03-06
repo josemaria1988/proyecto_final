@@ -1,6 +1,5 @@
-import actualizarCarrito from "../cart/actualizarCarrito.js";
-import agregarAlCarrito from "../cart/agregarAlCarrito.js";
-import {carritoDeCompras} from "../cart/agregarAlCarrito.js";
+import actualizarCarrito from "./components/cart/actualizarCarrito.js";
+import carritoIndex from "./components/cart/carritoIndex.js";
 
 let carritoStorage = [];
 const cardDormitorio = document.getElementById('cardDormitorio');
@@ -133,7 +132,7 @@ export default function mostrarProductos(array) {
                 }
               }).showToast();
             console.log(producto.id)
-            agregarAlCarrito(producto.id);
+            carritoIndex(productoId);
             actualizarCarrito(carritoDeCompras)
         });
 

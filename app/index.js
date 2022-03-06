@@ -1,4 +1,4 @@
-import mostrarProductos from "./components/products/mostrarProductos.js";
+import mostrarProductos from "./app.js";
 import { dormitorio } from "./data/products.js"
 
 document.addEventListener("DOMContentLoaded", (e) => {
